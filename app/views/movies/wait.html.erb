@@ -1,0 +1,46 @@
+<% if logged_in? %>
+    <div class="container">
+        <h2>Movies</h2>
+        <% if @movies %>
+        <div class="card-deck">
+            <% @movies.each do |movie| %>
+            <div class="card bg">
+                <div class="card-body text-center">
+                    <img class="card-img-top" src=<%= movie.img_url %> alt="Movie image" style="width:100%">
+                    <p class="card-text stretched-link">Title: <%= link_to movie.title, user_user_collection_path(current_user, movie) %></p>
+                    <p class="card-text">Year Released: <%= movie.year %></p>
+                    
+                </div>
+            </div>
+            <% end %>
+        </div>
+        <% else %>
+        <div>
+            <h4><%= link_to "No movies to see.  Add one here.", find_path(current_user) %></h4>
+        </div>
+        <% end %>
+    </div>
+
+<% else %>
+    <div class="container">
+        <h2>Movies</h2>
+        <% if @movies %>
+        <div class="card-deck">
+            <% @movies.each do |movie| %>
+            <div class="card bg">
+                <div class="card-body text-center">
+                    <img class="card-img-top" src=<%= movie.img_url %> alt="Movie image" style="width:100%">
+                    <p class="card-text stretched-link">Title: <%= link_to movie.title, movie_path(movie) %></p>
+                    <p class="card-text">Year Released: <%= movie.year %></p>
+                    
+                </div>
+            </div>
+            <% end %>
+        </div>
+        <% else %>
+        <div>
+            <h4>There are no movies yet.</h4>
+        </div>
+        <% end %>
+    </div>
+<% end %>

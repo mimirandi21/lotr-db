@@ -1,0 +1,726 @@
+movie_id	person_id	character	other_names	title_or_position	location
+1	1	Boromir		Captain of the White Tower, High Warden of the White Tower, Captain-General, Steward-prince of Gondor	Gondor
+2	1	Boromir		Captain of the White Tower, High Warden of the White Tower, Captain-General, Steward-prince of Gondor	Gondor
+3	1	Boromir		Captain of the White Tower, High Warden of the White Tower, Captain-General, Steward-prince of Gondor	Gondor
+4	1	Boromir		Captain of the White Tower, High Warden of the White Tower, Captain-General, Steward-prince of Gondor	Gondor
+6	1	Boromir		Captain of the White Tower, High Warden of the White Tower, Captain-General, Steward-prince of Gondor	Gondor
+7	1	Boromir		Captain of the White Tower, High Warden of the White Tower, Captain-General, Steward-prince of Gondor	Gondor
+9	1	Boromir		Captain of the White Tower, High Warden of the White Tower, Captain-General, Steward-prince of Gondor	Gondor
+10	1	Boromir		Captain of the White Tower, High Warden of the White Tower, Captain-General, Steward-prince of Gondor	Gondor
+11	1	Boromir		Captain of the White Tower, High Warden of the White Tower, Captain-General, Steward-prince of Gondor	Gondor
+12	1	Boromir		Captain of the White Tower, High Warden of the White Tower, Captain-General, Steward-prince of Gondor	Gondor
+1	2	Samwise “Sam” Gamgee	Banazir	Mayor of Michel Delving, Ring-bearer	3 Bagshot Row, Hobbiton; Bag End Hobbiton
+2	2	Samwise “Sam” Gamgee	Banazir	Mayor of Michel Delving, Ring-bearer	3 Bagshot Row, Hobbiton; Bag End Hobbiton
+3	2	Samwise “Sam” Gamgee	Banazir	Mayor of Michel Delving, Ring-bearer	3 Bagshot Row, Hobbiton; Bag End Hobbiton
+4	2	Samwise “Sam” Gamgee	Banazir	Mayor of Michel Delving, Ring-bearer	3 Bagshot Row, Hobbiton; Bag End Hobbiton
+5	2	Samwise “Sam” Gamgee	Banazir	Mayor of Michel Delving, Ring-bearer	3 Bagshot Row, Hobbiton; Bag End Hobbiton
+6	2	Samwise “Sam” Gamgee	Banazir	Mayor of Michel Delving, Ring-bearer	3 Bagshot Row, Hobbiton; Bag End Hobbiton
+7	2	Samwise “Sam” Gamgee	Banazir	Mayor of Michel Delving, Ring-bearer	3 Bagshot Row, Hobbiton; Bag End Hobbiton
+8	2	Samwise “Sam” Gamgee	Banazir	Mayor of Michel Delving, Ring-bearer	3 Bagshot Row, Hobbiton; Bag End Hobbiton
+9	2	Samwise “Sam” Gamgee	Banazir	Mayor of Michel Delving, Ring-bearer	3 Bagshot Row, Hobbiton; Bag End Hobbiton
+10	2	Samwise “Sam” Gamgee	Banazir	Mayor of Michel Delving, Ring-bearer	3 Bagshot Row, Hobbiton; Bag End Hobbiton
+11	2	Samwise “Sam” Gamgee	Banazir	Mayor of Michel Delving, Ring-bearer	3 Bagshot Row, Hobbiton; Bag End Hobbiton
+12	2	Samwise “Sam” Gamgee	Banazir	Mayor of Michel Delving, Ring-bearer	3 Bagshot Row, Hobbiton; Bag End Hobbiton
+1	3	Galadriel	Artanis, Nerwen, Alatariel	Lady of Lorien, Lady of Light, Lady of the Wood, Lady of the Galadhrim, Mistress of Magic	Tirion, Doriath, Nargothrond, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien
+2	3	Galadriel	Artanis, Nerwen, Alatariel	Lady of Lorien, Lady of Light, Lady of the Wood, Lady of the Galadhrim, Mistress of Magic	Tirion, Doriath, Nargothrond, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien
+3	3	Galadriel	Artanis, Nerwen, Alatariel	Lady of Lorien, Lady of Light, Lady of the Wood, Lady of the Galadhrim, Mistress of Magic	Tirion, Doriath, Nargothrond, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien
+4	3	Galadriel	Artanis, Nerwen, Alatariel	Lady of Lorien, Lady of Light, Lady of the Wood, Lady of the Galadhrim, Mistress of Magic	Tirion, Doriath, Nargothrond, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien
+5	3	Galadriel	Artanis, Nerwen, Alatariel	Lady of Lorien, Lady of Light, Lady of the Wood, Lady of the Galadhrim, Mistress of Magic	Tirion, Doriath, Nargothrond, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien
+6	3	Galadriel	Artanis, Nerwen, Alatariel	Lady of Lorien, Lady of Light, Lady of the Wood, Lady of the Galadhrim, Mistress of Magic	Tirion, Doriath, Nargothrond, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien
+7	3	Galadriel	Artanis, Nerwen, Alatariel	Lady of Lorien, Lady of Light, Lady of the Wood, Lady of the Galadhrim, Mistress of Magic	Tirion, Doriath, Nargothrond, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien
+8	3	Galadriel	Artanis, Nerwen, Alatariel	Lady of Lorien, Lady of Light, Lady of the Wood, Lady of the Galadhrim, Mistress of Magic	Tirion, Doriath, Nargothrond, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien
+9	3	Galadriel	Artanis, Nerwen, Alatariel	Lady of Lorien, Lady of Light, Lady of the Wood, Lady of the Galadhrim, Mistress of Magic	Tirion, Doriath, Nargothrond, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien
+10	3	Galadriel	Artanis, Nerwen, Alatariel	Lady of Lorien, Lady of Light, Lady of the Wood, Lady of the Galadhrim, Mistress of Magic	Tirion, Doriath, Nargothrond, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien
+11	3	Galadriel	Artanis, Nerwen, Alatariel	Lady of Lorien, Lady of Light, Lady of the Wood, Lady of the Galadhrim, Mistress of Magic	Tirion, Doriath, Nargothrond, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien
+12	3	Galadriel	Artanis, Nerwen, Alatariel	Lady of Lorien, Lady of Light, Lady of the Wood, Lady of the Galadhrim, Mistress of Magic	Tirion, Doriath, Nargothrond, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien
+13	3	Galadriel	Artanis, Nerwen, Alatariel	Lady of Lorien, Lady of Light, Lady of the Wood, Lady of the Galadhrim, Mistress of Magic	Tirion, Doriath, Nargothrond, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien
+14	3	Galadriel	Artanis, Nerwen, Alatariel	Lady of Lorien, Lady of Light, Lady of the Wood, Lady of the Galadhrim, Mistress of Magic	Tirion, Doriath, Nargothrond, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien
+15	3	Galadriel	Artanis, Nerwen, Alatariel	Lady of Lorien, Lady of Light, Lady of the Wood, Lady of the Galadhrim, Mistress of Magic	Tirion, Doriath, Nargothrond, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien
+16	3	Galadriel	Artanis, Nerwen, Alatariel	Lady of Lorien, Lady of Light, Lady of the Wood, Lady of the Galadhrim, Mistress of Magic	Tirion, Doriath, Nargothrond, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien
+17	3	Galadriel	Artanis, Nerwen, Alatariel	Lady of Lorien, Lady of Light, Lady of the Wood, Lady of the Galadhrim, Mistress of Magic	Tirion, Doriath, Nargothrond, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien
+18	3	Galadriel	Artanis, Nerwen, Alatariel	Lady of Lorien, Lady of Light, Lady of the Wood, Lady of the Galadhrim, Mistress of Magic	Tirion, Doriath, Nargothrond, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien
+1	4	Legolas	Greenleaf, Laicolasse	Prince of Woodland Realm	Woodland Realm, Ithilien
+2	4	Legolas	Greenleaf, Laicolasse	Prince of Woodland Realm	Woodland Realm, Ithilien
+3	4	Legolas	Greenleaf, Laicolasse	Prince of Woodland Realm	Woodland Realm, Ithilien
+4	4	Legolas	Greenleaf, Laicolasse	Prince of Woodland Realm	Woodland Realm, Ithilien
+5	4	Legolas	Greenleaf, Laicolasse	Prince of Woodland Realm	Woodland Realm, Ithilien
+6	4	Legolas	Greenleaf, Laicolasse	Prince of Woodland Realm	Woodland Realm, Ithilien
+7	4	Legolas	Greenleaf, Laicolasse	Prince of Woodland Realm	Woodland Realm, Ithilien
+8	4	Legolas	Greenleaf, Laicolasse	Prince of Woodland Realm	Woodland Realm, Ithilien
+9	4	Legolas	Greenleaf, Laicolasse	Prince of Woodland Realm	Woodland Realm, Ithilien
+10	4	Legolas	Greenleaf, Laicolasse	Prince of Woodland Realm	Woodland Realm, Ithilien
+11	4	Legolas	Greenleaf, Laicolasse	Prince of Woodland Realm	Woodland Realm, Ithilien
+12	4	Legolas	Greenleaf, Laicolasse	Prince of Woodland Realm	Woodland Realm, Ithilien
+15	4	Legolas	Greenleaf, Laicolasse	Prince of Woodland Realm	Woodland Realm, Ithilien
+16	4	Legolas	Greenleaf, Laicolasse	Prince of Woodland Realm	Woodland Realm, Ithilien
+17	4	Legolas	Greenleaf, Laicolasse	Prince of Woodland Realm	Woodland Realm, Ithilien
+18	4	Legolas	Greenleaf, Laicolasse	Prince of Woodland Realm	Woodland Realm, Ithilien
+1	5	Peregrin “Pippin” Took	Ernil I Pheriannath, Thain Peregrin I, Razanur Tuk, Fool of a Took, Guard of the Citadel, Knight of Gondor, Counsellor of the North-kingdom	Thain	Great Smials, Tuckborough, Gondor
+2	5	Peregrin “Pippin” Took	Ernil I Pheriannath, Thain Peregrin I, Razanur Tuk, Fool of a Took, Guard of the Citadel, Knight of Gondor, Counsellor of the North-kingdom	Thain	Great Smials, Tuckborough, Gondor
+3	5	Peregrin “Pippin” Took	Ernil I Pheriannath, Thain Peregrin I, Razanur Tuk, Fool of a Took, Guard of the Citadel, Knight of Gondor, Counsellor of the North-kingdom	Thain	Great Smials, Tuckborough, Gondor
+4	5	Peregrin “Pippin” Took	Ernil I Pheriannath, Thain Peregrin I, Razanur Tuk, Fool of a Took, Guard of the Citadel, Knight of Gondor, Counsellor of the North-kingdom	Thain	Great Smials, Tuckborough, Gondor
+5	5	Peregrin “Pippin” Took	Ernil I Pheriannath, Thain Peregrin I, Razanur Tuk, Fool of a Took, Guard of the Citadel, Knight of Gondor, Counsellor of the North-kingdom	Thain	Great Smials, Tuckborough, Gondor
+6	5	Peregrin “Pippin” Took	Ernil I Pheriannath, Thain Peregrin I, Razanur Tuk, Fool of a Took, Guard of the Citadel, Knight of Gondor, Counsellor of the North-kingdom	Thain	Great Smials, Tuckborough, Gondor
+7	5	Peregrin “Pippin” Took	Ernil I Pheriannath, Thain Peregrin I, Razanur Tuk, Fool of a Took, Guard of the Citadel, Knight of Gondor, Counsellor of the North-kingdom	Thain	Great Smials, Tuckborough, Gondor
+8	5	Peregrin “Pippin” Took	Ernil I Pheriannath, Thain Peregrin I, Razanur Tuk, Fool of a Took, Guard of the Citadel, Knight of Gondor, Counsellor of the North-kingdom	Thain	Great Smials, Tuckborough, Gondor
+9	5	Peregrin “Pippin” Took	Ernil I Pheriannath, Thain Peregrin I, Razanur Tuk, Fool of a Took, Guard of the Citadel, Knight of Gondor, Counsellor of the North-kingdom	Thain	Great Smials, Tuckborough, Gondor
+10	5	Peregrin “Pippin” Took	Ernil I Pheriannath, Thain Peregrin I, Razanur Tuk, Fool of a Took, Guard of the Citadel, Knight of Gondor, Counsellor of the North-kingdom	Thain	Great Smials, Tuckborough, Gondor
+11	5	Peregrin “Pippin” Took	Ernil I Pheriannath, Thain Peregrin I, Razanur Tuk, Fool of a Took, Guard of the Citadel, Knight of Gondor, Counsellor of the North-kingdom	Thain	Great Smials, Tuckborough, Gondor
+12	5	Peregrin “Pippin” Took	Ernil I Pheriannath, Thain Peregrin I, Razanur Tuk, Fool of a Took, Guard of the Citadel, Knight of Gondor, Counsellor of the North-kingdom	Thain	Great Smials, Tuckborough, Gondor
+17	5	The Balladeer (voice)			
+18	5	The Balladeer (voice)			
+1	6	Bilbo Baggins	Burglar, Thief, Clue-finder, Web-cutter, Stinging Fly, Ringwinner, Luckwearer, Barrel-rider, Mr. Lucky Number, Child of the Kindly West, Bilbo the Magnificent, Elf-friend, Mad Baggins, Bilba Labingi	Ring-bearer	Bag End, Hobbiton, Rivendell
+2	6	Bilbo Baggins	Burglar, Thief, Clue-finder, Web-cutter, Stinging Fly, Ringwinner, Luckwearer, Barrel-rider, Mr. Lucky Number, Child of the Kindly West, Bilbo the Magnificent, Elf-friend, Mad Baggins, Bilba Labingi	Ring-bearer	Bag End, Hobbiton, Rivendell
+3	6	Bilbo Baggins	Burglar, Thief, Clue-finder, Web-cutter, Stinging Fly, Ringwinner, Luckwearer, Barrel-rider, Mr. Lucky Number, Child of the Kindly West, Bilbo the Magnificent, Elf-friend, Mad Baggins, Bilba Labingi	Ring-bearer	Bag End, Hobbiton, Rivendell
+4	6	Bilbo Baggins	Burglar, Thief, Clue-finder, Web-cutter, Stinging Fly, Ringwinner, Luckwearer, Barrel-rider, Mr. Lucky Number, Child of the Kindly West, Bilbo the Magnificent, Elf-friend, Mad Baggins, Bilba Labingi	Ring-bearer	Bag End, Hobbiton, Rivendell
+9	6	Bilbo Baggins	Burglar, Thief, Clue-finder, Web-cutter, Stinging Fly, Ringwinner, Luckwearer, Barrel-rider, Mr. Lucky Number, Child of the Kindly West, Bilbo the Magnificent, Elf-friend, Mad Baggins, Bilba Labingi	Ring-bearer	Bag End, Hobbiton, Rivendell
+10	6	Bilbo Baggins	Burglar, Thief, Clue-finder, Web-cutter, Stinging Fly, Ringwinner, Luckwearer, Barrel-rider, Mr. Lucky Number, Child of the Kindly West, Bilbo the Magnificent, Elf-friend, Mad Baggins, Bilba Labingi	Ring-bearer	Bag End, Hobbiton, Rivendell
+11	6	Bilbo Baggins	Burglar, Thief, Clue-finder, Web-cutter, Stinging Fly, Ringwinner, Luckwearer, Barrel-rider, Mr. Lucky Number, Child of the Kindly West, Bilbo the Magnificent, Elf-friend, Mad Baggins, Bilba Labingi	Ring-bearer	Bag End, Hobbiton, Rivendell
+12	6	Bilbo Baggins	Burglar, Thief, Clue-finder, Web-cutter, Stinging Fly, Ringwinner, Luckwearer, Barrel-rider, Mr. Lucky Number, Child of the Kindly West, Bilbo the Magnificent, Elf-friend, Mad Baggins, Bilba Labingi	Ring-bearer	Bag End, Hobbiton, Rivendell
+13	6	Bilbo Baggins	Burglar, Thief, Clue-finder, Web-cutter, Stinging Fly, Ringwinner, Luckwearer, Barrel-rider, Mr. Lucky Number, Child of the Kindly West, Bilbo the Magnificent, Elf-friend, Mad Baggins, Bilba Labingi	Ring-bearer	Bag End, Hobbiton, Rivendell
+14	6	Bilbo Baggins	Burglar, Thief, Clue-finder, Web-cutter, Stinging Fly, Ringwinner, Luckwearer, Barrel-rider, Mr. Lucky Number, Child of the Kindly West, Bilbo the Magnificent, Elf-friend, Mad Baggins, Bilba Labingi	Ring-bearer	Bag End, Hobbiton, Rivendell
+17	6	Bilbo Baggins	Burglar, Thief, Clue-finder, Web-cutter, Stinging Fly, Ringwinner, Luckwearer, Barrel-rider, Mr. Lucky Number, Child of the Kindly West, Bilbo the Magnificent, Elf-friend, Mad Baggins, Bilba Labingi	Ring-bearer	Bag End, Hobbiton, Rivendell
+18	6	Bilbo Baggins	Burglar, Thief, Clue-finder, Web-cutter, Stinging Fly, Ringwinner, Luckwearer, Barrel-rider, Mr. Lucky Number, Child of the Kindly West, Bilbo the Magnificent, Elf-friend, Mad Baggins, Bilba Labingi	Ring-bearer	Bag End, Hobbiton, Rivendell
+1	7	Saruman	Curumo, Curunir, the White, Ring-maker, Of many colours, Sharkey	Head of the White Council	Orthanc
+2	7	Saruman	Curumo, Curunir, the White, Ring-maker, Of many colours, Sharkey	Head of the White Council	Orthanc
+3	7	Saruman	Curumo, Curunir, the White, Ring-maker, Of many colours, Sharkey	Head of the White Council	Orthanc
+4	7	Saruman	Curumo, Curunir, the White, Ring-maker, Of many colours, Sharkey	Head of the White Council	Orthanc
+5	7	Saruman	Curumo, Curunir, the White, Ring-maker, Of many colours, Sharkey	Head of the White Council	Orthanc
+6	7	Saruman	Curumo, Curunir, the White, Ring-maker, Of many colours, Sharkey	Head of the White Council	Orthanc
+7	7	Saruman	Curumo, Curunir, the White, Ring-maker, Of many colours, Sharkey	Head of the White Council	Orthanc
+8	7	Saruman	Curumo, Curunir, the White, Ring-maker, Of many colours, Sharkey	Head of the White Council	Orthanc
+10	7	Saruman	Curumo, Curunir, the White, Ring-maker, Of many colours, Sharkey	Head of the White Council	Orthanc
+11	7	Saruman	Curumo, Curunir, the White, Ring-maker, Of many colours, Sharkey	Head of the White Council	Orthanc
+12	7	Saruman	Curumo, Curunir, the White, Ring-maker, Of many colours, Sharkey	Head of the White Council	Orthanc
+13	7	Saruman	Curumo, Curunir, the White, Ring-maker, Of many colours, Sharkey	Head of the White Council	Orthanc
+16	7	Saruman	Curumo, Curunir, the White, Ring-maker, Of many colours, Sharkey	Head of the White Council	Orthanc
+17	7	Saruman	Curumo, Curunir, the White, Ring-maker, Of many colours, Sharkey	Head of the White Council	Orthanc
+1	8	Gollum	Smeagol, Trahald, Stinker, Slinker		
+2	8	Gollum	Smeagol, Trahald, Stinker, Slinker		
+3	8	Gollum	Smeagol, Trahald, Stinker, Slinker		
+4	8	Gollum	Smeagol, Trahald, Stinker, Slinker		
+5	8	Gollum	Smeagol, Trahald, Stinker, Slinker		
+6	8	Gollum	Smeagol, Trahald, Stinker, Slinker		
+7	8	Gollum	Smeagol, Trahald, Stinker, Slinker		
+8	8	Gollum	Smeagol, Trahald, Stinker, Slinker		
+9	8	Gollum / Smeagol	Trahald, Stinker, Slinker		
+10	8	Gollum / Smeagol	Trahald, Stinker, Slinker		
+11	8	Gollum / Smeagol	Trahald, Stinker, Slinker		
+12	8	Gollum / Smeagol	Trahald, Stinker, Slinker		
+13	8	Gollum	Smeagol, Trahald, Stinker, Slinker		
+14	8	Gollum	Smeagol, Trahald, Stinker, Slinker		
+1	9	Gandalf	The Grey, The White, Olorin, Mithrandir, Incanus, Tharkun, The White Rider, Greyhame, Stormcrow, Old Grey Beard, Big Grey Beard, The White Pilgrim, Lathspell		
+2	9	Gandalf	The Grey, The White, Olorin, Mithrandir, Incanus, Tharkun, The White Rider, Greyhame, Stormcrow, Old Grey Beard, Big Grey Beard, The White Pilgrim, Lathspell		
+3	9	Gandalf	The Grey, The White, Olorin, Mithrandir, Incanus, Tharkun, The White Rider, Greyhame, Stormcrow, Old Grey Beard, Big Grey Beard, The White Pilgrim, Lathspell		
+4	9	Gandalf	The Grey, The White, Olorin, Mithrandir, Incanus, Tharkun, The White Rider, Greyhame, Stormcrow, Old Grey Beard, Big Grey Beard, The White Pilgrim, Lathspell		
+5	9	Gandalf	The Grey, The White, Olorin, Mithrandir, Incanus, Tharkun, The White Rider, Greyhame, Stormcrow, Old Grey Beard, Big Grey Beard, The White Pilgrim, Lathspell		
+6	9	Gandalf	The Grey, The White, Olorin, Mithrandir, Incanus, Tharkun, The White Rider, Greyhame, Stormcrow, Old Grey Beard, Big Grey Beard, The White Pilgrim, Lathspell		
+7	9	Gandalf	The Grey, The White, Olorin, Mithrandir, Incanus, Tharkun, The White Rider, Greyhame, Stormcrow, Old Grey Beard, Big Grey Beard, The White Pilgrim, Lathspell		
+8	9	Gandalf	The Grey, The White, Olorin, Mithrandir, Incanus, Tharkun, The White Rider, Greyhame, Stormcrow, Old Grey Beard, Big Grey Beard, The White Pilgrim, Lathspell		
+9	9	Gandalf	The Grey, The White, Olorin, Mithrandir, Incanus, Tharkun, The White Rider, Greyhame, Stormcrow, Old Grey Beard, Big Grey Beard, The White Pilgrim, Lathspell		
+10	9	Gandalf	The Grey, The White, Olorin, Mithrandir, Incanus, Tharkun, The White Rider, Greyhame, Stormcrow, Old Grey Beard, Big Grey Beard, The White Pilgrim, Lathspell		
+11	9	Gandalf	The Grey, The White, Olorin, Mithrandir, Incanus, Tharkun, The White Rider, Greyhame, Stormcrow, Old Grey Beard, Big Grey Beard, The White Pilgrim, Lathspell		
+12	9	Gandalf	The Grey, The White, Olorin, Mithrandir, Incanus, Tharkun, The White Rider, Greyhame, Stormcrow, Old Grey Beard, Big Grey Beard, The White Pilgrim, Lathspell		
+13	9	Gandalf	The Grey, The White, Olorin, Mithrandir, Incanus, Tharkun, The White Rider, Greyhame, Stormcrow, Old Grey Beard, Big Grey Beard, The White Pilgrim, Lathspell		
+14	9	Gandalf	The Grey, The White, Olorin, Mithrandir, Incanus, Tharkun, The White Rider, Greyhame, Stormcrow, Old Grey Beard, Big Grey Beard, The White Pilgrim, Lathspell		
+15	9	Gandalf	The Grey, The White, Olorin, Mithrandir, Incanus, Tharkun, The White Rider, Greyhame, Stormcrow, Old Grey Beard, Big Grey Beard, The White Pilgrim, Lathspell		
+16	9	Gandalf	The Grey, The White, Olorin, Mithrandir, Incanus, Tharkun, The White Rider, Greyhame, Stormcrow, Old Grey Beard, Big Grey Beard, The White Pilgrim, Lathspell		
+17	9	Gandalf	The Grey, The White, Olorin, Mithrandir, Incanus, Tharkun, The White Rider, Greyhame, Stormcrow, Old Grey Beard, Big Grey Beard, The White Pilgrim, Lathspell		
+18	9	Gandalf	The Grey, The White, Olorin, Mithrandir, Incanus, Tharkun, The White Rider, Greyhame, Stormcrow, Old Grey Beard, Big Grey Beard, The White Pilgrim, Lathspell		
+1	10	Meriadoc “Merry” Brandybuck	Merry the Magnificent, Kalimac Brandagamba	Master of Buckland	Brandy Hall, Buckland
+2	10	Meriadoc “Merry” Brandybuck	Merry the Magnificent, Kalimac Brandagamba	Master of Buckland	Brandy Hall, Buckland
+3	10	Meriadoc “Merry” Brandybuck	Merry the Magnificent, Kalimac Brandagamba	Master of Buckland	Brandy Hall, Buckland
+4	10	Meriadoc “Merry” Brandybuck	Merry the Magnificent, Kalimac Brandagamba	Master of Buckland	Brandy Hall, Buckland
+5	10	Meriadoc “Merry” Brandybuck	Merry the Magnificent, Kalimac Brandagamba	Master of Buckland	Brandy Hall, Buckland
+6	10	Meriadoc “Merry” Brandybuck	Merry the Magnificent, Kalimac Brandagamba	Master of Buckland	Brandy Hall, Buckland
+7	10	Meriadoc “Merry” Brandybuck	Merry the Magnificent, Kalimac Brandagamba	Master of Buckland	Brandy Hall, Buckland
+8	10	Meriadoc “Merry” Brandybuck	Merry the Magnificent, Kalimac Brandagamba	Master of Buckland	Brandy Hall, Buckland
+9	10	Meriadoc “Merry” Brandybuck	Merry the Magnificent, Kalimac Brandagamba	Master of Buckland	Brandy Hall, Buckland
+10	10	Meriadoc “Merry” Brandybuck	Merry the Magnificent, Kalimac Brandagamba	Master of Buckland	Brandy Hall, Buckland
+11	10	Meriadoc “Merry” Brandybuck	Merry the Magnificent, Kalimac Brandagamba	Master of Buckland	Brandy Hall, Buckland
+12	10	Meriadoc “Merry” Brandybuck	Merry the Magnificent, Kalimac Brandagamba	Master of Buckland	Brandy Hall, Buckland
+17	10	Laketowner			
+18	10	Laketowner			
+1	11	Aragorn	Thorongil, Elessar, Edhelharn, Elfstone, Estel, Strider, Wingfoot, Telcontar, Isildur’s Heir, The Dunadan, Longshanks, Arakorno	Chieftain of the Dunedain, High King of the Dunedain, King of Gondor and Arnor, King of the West, Lord of the Westlands, Ranger	Rivendell, Gondor, Arnor
+2	11	Aragorn	Thorongil, Elessar, Edhelharn, Elfstone, Estel, Strider, Wingfoot, Telcontar, Isildur’s Heir, The Dunadan, Longshanks, Arakorno	Chieftain of the Dunedain, High King of the Dunedain, King of Gondor and Arnor, King of the West, Lord of the Westlands, Ranger	Rivendell, Gondor, Arnor
+3	11	Aragorn	Thorongil, Elessar, Edhelharn, Elfstone, Estel, Strider, Wingfoot, Telcontar, Isildur’s Heir, The Dunadan, Longshanks, Arakorno	Chieftain of the Dunedain, High King of the Dunedain, King of Gondor and Arnor, King of the West, Lord of the Westlands, Ranger	Rivendell, Gondor, Arnor
+4	11	Aragorn	Thorongil, Elessar, Edhelharn, Elfstone, Estel, Strider, Wingfoot, Telcontar, Isildur’s Heir, The Dunadan, Longshanks, Arakorno	Chieftain of the Dunedain, High King of the Dunedain, King of Gondor and Arnor, King of the West, Lord of the Westlands, Ranger	Rivendell, Gondor, Arnor
+5	11	Aragorn	Thorongil, Elessar, Edhelharn, Elfstone, Estel, Strider, Wingfoot, Telcontar, Isildur’s Heir, The Dunadan, Longshanks, Arakorno	Chieftain of the Dunedain, High King of the Dunedain, King of Gondor and Arnor, King of the West, Lord of the Westlands, Ranger	Rivendell, Gondor, Arnor
+6	11	Aragorn	Thorongil, Elessar, Edhelharn, Elfstone, Estel, Strider, Wingfoot, Telcontar, Isildur’s Heir, The Dunadan, Longshanks, Arakorno	Chieftain of the Dunedain, High King of the Dunedain, King of Gondor and Arnor, King of the West, Lord of the Westlands, Ranger	Rivendell, Gondor, Arnor
+7	11	Aragorn	Thorongil, Elessar, Edhelharn, Elfstone, Estel, Strider, Wingfoot, Telcontar, Isildur’s Heir, The Dunadan, Longshanks, Arakorno	Chieftain of the Dunedain, High King of the Dunedain, King of Gondor and Arnor, King of the West, Lord of the Westlands, Ranger	Rivendell, Gondor, Arnor
+8	11	Aragorn	Thorongil, Elessar, Edhelharn, Elfstone, Estel, Strider, Wingfoot, Telcontar, Isildur’s Heir, The Dunadan, Longshanks, Arakorno	Chieftain of the Dunedain, High King of the Dunedain, King of Gondor and Arnor, King of the West, Lord of the Westlands, Ranger	Rivendell, Gondor, Arnor
+9	11	Aragorn	Thorongil, Elessar, Edhelharn, Elfstone, Estel, Strider, Wingfoot, Telcontar, Isildur’s Heir, The Dunadan, Longshanks, Arakorno	Chieftain of the Dunedain, High King of the Dunedain, King of Gondor and Arnor, King of the West, Lord of the Westlands, Ranger	Rivendell, Gondor, Arnor
+10	11	Aragorn	Thorongil, Elessar, Edhelharn, Elfstone, Estel, Strider, Wingfoot, Telcontar, Isildur’s Heir, The Dunadan, Longshanks, Arakorno	Chieftain of the Dunedain, High King of the Dunedain, King of Gondor and Arnor, King of the West, Lord of the Westlands, Ranger	Rivendell, Gondor, Arnor
+11	11	Aragorn	Thorongil, Elessar, Edhelharn, Elfstone, Estel, Strider, Wingfoot, Telcontar, Isildur’s Heir, The Dunadan, Longshanks, Arakorno	Chieftain of the Dunedain, High King of the Dunedain, King of Gondor and Arnor, King of the West, Lord of the Westlands, Ranger	Rivendell, Gondor, Arnor
+12	11	Aragorn	Thorongil, Elessar, Edhelharn, Elfstone, Estel, Strider, Wingfoot, Telcontar, Isildur’s Heir, The Dunadan, Longshanks, Arakorno	Chieftain of the Dunedain, High King of the Dunedain, King of Gondor and Arnor, King of the West, Lord of the Westlands, Ranger	Rivendell, Gondor, Arnor
+1	12	Gimli	Elf-friend, Lockbearer	Lord of the Glittering Caves	Thorin’s Halls, Lonely Mountain, Glittering Caves
+2	12	Gimli	Elf-friend, Lockbearer	Lord of the Glittering Caves	Thorin’s Halls, Lonely Mountain, Glittering Caves
+3	12	Gimli	Elf-friend, Lockbearer	Lord of the Glittering Caves	Thorin’s Halls, Lonely Mountain, Glittering Caves
+4	12	Gimli	Elf-friend, Lockbearer	Lord of the Glittering Caves	Thorin’s Halls, Lonely Mountain, Glittering Caves
+5	12	Gimli	Elf-friend, Lockbearer	Lord of the Glittering Caves	Thorin’s Halls, Lonely Mountain, Glittering Caves
+6	12	Gimli	Elf-friend, Lockbearer	Lord of the Glittering Caves	Thorin’s Halls, Lonely Mountain, Glittering Caves
+7	12	Gimli	Elf-friend, Lockbearer	Lord of the Glittering Caves	Thorin’s Halls, Lonely Mountain, Glittering Caves
+8	12	Gimli	Elf-friend, Lockbearer	Lord of the Glittering Caves	Thorin’s Halls, Lonely Mountain, Glittering Caves
+5	12	Treebeard (voice)	Fangorn		Eriador & Beleriand (First Age) Fangorn Forest (Third Age) Treegarth of Orthanc (Fourth Age)
+6	12	Treebeard (voice)	Fangorn		Eriador & Beleriand (First Age) Fangorn Forest (Third Age) Treegarth of Orthanc (Fourth Age)
+7	12	Treebeard (voice)	Fangorn		Eriador & Beleriand (First Age) Fangorn Forest (Third Age) Treegarth of Orthanc (Fourth Age)
+8	12	Treebeard (voice)	Fangorn		Eriador & Beleriand (First Age) Fangorn Forest (Third Age) Treegarth of Orthanc (Fourth Age)
+9	12	Gimli	Elf-friend, Lockbearer	Lord of the Glittering Caves	Thorin’s Halls, Lonely Mountain, Glittering Caves
+10	12	Gimli	Elf-friend, Lockbearer	Lord of the Glittering Caves	Thorin’s Halls, Lonely Mountain, Glittering Caves
+11	12	Gimli	Elf-friend, Lockbearer	Lord of the Glittering Caves	Thorin’s Halls, Lonely Mountain, Glittering Caves
+12	12	Gimli	Elf-friend, Lockbearer	Lord of the Glittering Caves	Thorin’s Halls, Lonely Mountain, Glittering Caves
+1	13	Arwen	Evenstar, Undomiel, Elerondiel, Elrenniel	Lady of Rivendell, Queen of Elves and Men, Queen of Gondor	Rivendell, Lothlorien, Reunited Kingdom
+2	13	Arwen	Evenstar, Undomiel, Elerondiel, Elrenniel	Lady of Rivendell, Queen of Elves and Men, Queen of Gondor	Rivendell, Lothlorien, Reunited Kingdom
+3	13	Arwen	Evenstar, Undomiel, Elerondiel, Elrenniel	Lady of Rivendell, Queen of Elves and Men, Queen of Gondor	Rivendell, Lothlorien, Reunited Kingdom
+4	13	Arwen	Evenstar, Undomiel, Elerondiel, Elrenniel	Lady of Rivendell, Queen of Elves and Men, Queen of Gondor	Rivendell, Lothlorien, Reunited Kingdom
+5	13	Arwen	Evenstar, Undomiel, Elerondiel, Elrenniel	Lady of Rivendell, Queen of Elves and Men, Queen of Gondor	Rivendell, Lothlorien, Reunited Kingdom
+6	13	Arwen	Evenstar, Undomiel, Elerondiel, Elrenniel	Lady of Rivendell, Queen of Elves and Men, Queen of Gondor	Rivendell, Lothlorien, Reunited Kingdom
+7	13	Arwen	Evenstar, Undomiel, Elerondiel, Elrenniel	Lady of Rivendell, Queen of Elves and Men, Queen of Gondor	Rivendell, Lothlorien, Reunited Kingdom
+8	13	Arwen	Evenstar, Undomiel, Elerondiel, Elrenniel	Lady of Rivendell, Queen of Elves and Men, Queen of Gondor	Rivendell, Lothlorien, Reunited Kingdom
+9	13	Arwen	Evenstar, Undomiel, Elerondiel, Elrenniel	Lady of Rivendell, Queen of Elves and Men, Queen of Gondor	Rivendell, Lothlorien, Reunited Kingdom
+10	13	Arwen	Evenstar, Undomiel, Elerondiel, Elrenniel	Lady of Rivendell, Queen of Elves and Men, Queen of Gondor	Rivendell, Lothlorien, Reunited Kingdom
+11	13	Arwen	Evenstar, Undomiel, Elerondiel, Elrenniel	Lady of Rivendell, Queen of Elves and Men, Queen of Gondor	Rivendell, Lothlorien, Reunited Kingdom
+12	13	Arwen	Evenstar, Undomiel, Elerondiel, Elrenniel	Lady of Rivendell, Queen of Elves and Men, Queen of Gondor	Rivendell, Lothlorien, Reunited Kingdom
+1	14	Elrond	Elrond Peredhel, Half-elven, Master Elrond	Lord of Rivendell, Ring-bearer of Vilya, Vice-regent of Eriador, Herald to Gil-galad	Lindon, Rivendell
+2	14	Elrond	Elrond Peredhel, Half-elven, Master Elrond	Lord of Rivendell, Ring-bearer of Vilya, Vice-regent of Eriador, Herald to Gil-galad	Lindon, Rivendell
+3	14	Elrond	Elrond Peredhel, Half-elven, Master Elrond	Lord of Rivendell, Ring-bearer of Vilya, Vice-regent of Eriador, Herald to Gil-galad	Lindon, Rivendell
+4	14	Elrond	Elrond Peredhel, Half-elven, Master Elrond	Lord of Rivendell, Ring-bearer of Vilya, Vice-regent of Eriador, Herald to Gil-galad	Lindon, Rivendell
+5	14	Elrond	Elrond Peredhel, Half-elven, Master Elrond	Lord of Rivendell, Ring-bearer of Vilya, Vice-regent of Eriador, Herald to Gil-galad	Lindon, Rivendell
+6	14	Elrond	Elrond Peredhel, Half-elven, Master Elrond	Lord of Rivendell, Ring-bearer of Vilya, Vice-regent of Eriador, Herald to Gil-galad	Lindon, Rivendell
+7	14	Elrond	Elrond Peredhel, Half-elven, Master Elrond	Lord of Rivendell, Ring-bearer of Vilya, Vice-regent of Eriador, Herald to Gil-galad	Lindon, Rivendell
+8	14	Elrond	Elrond Peredhel, Half-elven, Master Elrond	Lord of Rivendell, Ring-bearer of Vilya, Vice-regent of Eriador, Herald to Gil-galad	Lindon, Rivendell
+9	14	Elrond	Elrond Peredhel, Half-elven, Master Elrond	Lord of Rivendell, Ring-bearer of Vilya, Vice-regent of Eriador, Herald to Gil-galad	Lindon, Rivendell
+10	14	Elrond	Elrond Peredhel, Half-elven, Master Elrond	Lord of Rivendell, Ring-bearer of Vilya, Vice-regent of Eriador, Herald to Gil-galad	Lindon, Rivendell
+11	14	Elrond	Elrond Peredhel, Half-elven, Master Elrond	Lord of Rivendell, Ring-bearer of Vilya, Vice-regent of Eriador, Herald to Gil-galad	Lindon, Rivendell
+12	14	Elrond	Elrond Peredhel, Half-elven, Master Elrond	Lord of Rivendell, Ring-bearer of Vilya, Vice-regent of Eriador, Herald to Gil-galad	Lindon, Rivendell
+13	14	Elrond	Elrond Peredhel, Half-elven, Master Elrond	Lord of Rivendell, Ring-bearer of Vilya, Vice-regent of Eriador, Herald to Gil-galad	Lindon, Rivendell
+14	14	Elrond	Elrond Peredhel, Half-elven, Master Elrond	Lord of Rivendell, Ring-bearer of Vilya, Vice-regent of Eriador, Herald to Gil-galad	Lindon, Rivendell
+17	14	Elrond	Elrond Peredhel, Half-elven, Master Elrond	Lord of Rivendell, Ring-bearer of Vilya, Vice-regent of Eriador, Herald to Gil-galad	Lindon, Rivendell
+18	14	Elrond	Elrond Peredhel, Half-elven, Master Elrond	Lord of Rivendell, Ring-bearer of Vilya, Vice-regent of Eriador, Herald to Gil-galad	Lindon, Rivendell
+1	15	Frodo Baggins	Elf-friend, Mr. Underhill, The Halfling, Master, Nine-fingered Frodo, Deputy Mayor of Michel Delving, Daur, Iorhael, Maura Labingi, Bingo Baggins, Bronwe athan Harthad	Ring-bearer	Brandy Hall, Buckland, Bag End, Hobbiton, Crickhollow, Valinor
+2	15	Frodo Baggins	Elf-friend, Mr. Underhill, The Halfling, Master, Nine-fingered Frodo, Deputy Mayor of Michel Delving, Daur, Iorhael, Maura Labingi, Bingo Baggins, Bronwe athan Harthad	Ring-bearer	Brandy Hall, Buckland, Bag End, Hobbiton, Crickhollow, Valinor
+3	15	Frodo Baggins	Elf-friend, Mr. Underhill, The Halfling, Master, Nine-fingered Frodo, Deputy Mayor of Michel Delving, Daur, Iorhael, Maura Labingi, Bingo Baggins, Bronwe athan Harthad	Ring-bearer	Brandy Hall, Buckland, Bag End, Hobbiton, Crickhollow, Valinor
+4	15	Frodo Baggins	Elf-friend, Mr. Underhill, The Halfling, Master, Nine-fingered Frodo, Deputy Mayor of Michel Delving, Daur, Iorhael, Maura Labingi, Bingo Baggins, Bronwe athan Harthad	Ring-bearer	Brandy Hall, Buckland, Bag End, Hobbiton, Crickhollow, Valinor
+5	15	Frodo Baggins	Elf-friend, Mr. Underhill, The Halfling, Master, Nine-fingered Frodo, Deputy Mayor of Michel Delving, Daur, Iorhael, Maura Labingi, Bingo Baggins, Bronwe athan Harthad	Ring-bearer	Brandy Hall, Buckland, Bag End, Hobbiton, Crickhollow, Valinor
+6	15	Frodo Baggins	Elf-friend, Mr. Underhill, The Halfling, Master, Nine-fingered Frodo, Deputy Mayor of Michel Delving, Daur, Iorhael, Maura Labingi, Bingo Baggins, Bronwe athan Harthad	Ring-bearer	Brandy Hall, Buckland, Bag End, Hobbiton, Crickhollow, Valinor
+7	15	Frodo Baggins	Elf-friend, Mr. Underhill, The Halfling, Master, Nine-fingered Frodo, Deputy Mayor of Michel Delving, Daur, Iorhael, Maura Labingi, Bingo Baggins, Bronwe athan Harthad	Ring-bearer	Brandy Hall, Buckland, Bag End, Hobbiton, Crickhollow, Valinor
+8	15	Frodo Baggins	Elf-friend, Mr. Underhill, The Halfling, Master, Nine-fingered Frodo, Deputy Mayor of Michel Delving, Daur, Iorhael, Maura Labingi, Bingo Baggins, Bronwe athan Harthad	Ring-bearer	Brandy Hall, Buckland, Bag End, Hobbiton, Crickhollow, Valinor
+9	15	Frodo Baggins	Elf-friend, Mr. Underhill, The Halfling, Master, Nine-fingered Frodo, Deputy Mayor of Michel Delving, Daur, Iorhael, Maura Labingi, Bingo Baggins, Bronwe athan Harthad	Ring-bearer	Brandy Hall, Buckland, Bag End, Hobbiton, Crickhollow, Valinor
+10	15	Frodo Baggins	Elf-friend, Mr. Underhill, The Halfling, Master, Nine-fingered Frodo, Deputy Mayor of Michel Delving, Daur, Iorhael, Maura Labingi, Bingo Baggins, Bronwe athan Harthad	Ring-bearer	Brandy Hall, Buckland, Bag End, Hobbiton, Crickhollow, Valinor
+11	15	Frodo Baggins	Elf-friend, Mr. Underhill, The Halfling, Master, Nine-fingered Frodo, Deputy Mayor of Michel Delving, Daur, Iorhael, Maura Labingi, Bingo Baggins, Bronwe athan Harthad	Ring-bearer	Brandy Hall, Buckland, Bag End, Hobbiton, Crickhollow, Valinor
+12	15	Frodo Baggins	Elf-friend, Mr. Underhill, The Halfling, Master, Nine-fingered Frodo, Deputy Mayor of Michel Delving, Daur, Iorhael, Maura Labingi, Bingo Baggins, Bronwe athan Harthad	Ring-bearer	Brandy Hall, Buckland, Bag End, Hobbiton, Crickhollow, Valinor
+13	15	Frodo Baggins	Elf-friend, Mr. Underhill, The Halfling, Master, Nine-fingered Frodo, Deputy Mayor of Michel Delving, Daur, Iorhael, Maura Labingi, Bingo Baggins, Bronwe athan Harthad	Ring-bearer	Brandy Hall, Buckland, Bag End, Hobbiton, Crickhollow, Valinor
+14	15	Frodo Baggins	Elf-friend, Mr. Underhill, The Halfling, Master, Nine-fingered Frodo, Deputy Mayor of Michel Delving, Daur, Iorhael, Maura Labingi, Bingo Baggins, Bronwe athan Harthad	Ring-bearer	Brandy Hall, Buckland, Bag End, Hobbiton, Crickhollow, Valinor
+1	16				
+2	16				
+3	16				
+4	16				
+5	16				
+6	16				
+7	16				
+8	16				
+9	16				
+10	16				
+11	16				
+12	16				
+13	16				
+14	16				
+15	16				
+16	16				
+17	16				
+18	16				
+1	17				
+2	17				
+3	17				
+4	17				
+5	17				
+6	17				
+7	17				
+8	17				
+9	17				
+10	17				
+11	17				
+12	17				
+13	17				
+14	17				
+15	17				
+16	17				
+17	17				
+18	17				
+1	18				
+2	18				
+3	18				
+4	18				
+5	18				
+6	18				
+7	18				
+8	18				
+9	18				
+10	18				
+11	18				
+12	18				
+13	18				
+14	18				
+15	18				
+16	18				
+17	18				
+18	18				
+1	20				
+2	20				
+3	20				
+4	20				
+5	20				
+6	20				
+7	20				
+8	20				
+9	20				
+10	20				
+11	20				
+12	20				
+13	20				
+14	20				
+15	20				
+16	20				
+17	20				
+18	20				
+1	19				
+2	19				
+3	19				
+4	19				
+5	19				
+6	19				
+7	19				
+8	19				
+9	19				
+10	19				
+11	19				
+12	19				
+13	19				
+14	19				
+15	19				
+16	19				
+17	19				
+18	19				
+5	21				
+6	21				
+7	21				
+8	21				
+5	22	Grima Wormtongue	Wormtongue, Worm	King’s Advisor	
+6	22	Grima Wormtongue	Wormtongue, Worm	King’s Advisor	
+7	22	Grima Wormtongue	Wormtongue, Worm	King’s Advisor	
+8	22	Grima Wormtongue	Wormtongue, Worm	King’s Advisor	
+10	22	Grima Wormtongue	Wormtongue, Worm	King’s Advisor	
+11	22	Grima Wormtongue	Wormtongue, Worm	King’s Advisor	
+5	23	Theoden	Ednew, Horsemaster	King of Rohan	Rohan
+6	23	Theoden	Ednew, Horsemaster	King of Rohan	Rohan
+7	23	Theoden	Ednew, Horsemaster	King of Rohan	Rohan
+8	23	Theoden	Ednew, Horsemaster	King of Rohan	Rohan
+9	23	Theoden	Ednew, Horsemaster	King of Rohan	Rohan
+10	23	Theoden	Ednew, Horsemaster	King of Rohan	Rohan
+11	23	Theoden	Ednew, Horsemaster	King of Rohan	Rohan
+12	23	Theoden	Ednew, Horsemaster	King of Rohan	Rohan
+5	24	Eowyn	Dernhelm, White Lady of Rohan, Lady of the Shield-arm		Rohan and Ithilien
+6	24	Eowyn	Dernhelm, White Lady of Rohan, Lady of the Shield-arm		Rohan and Ithilien
+7	24	Eowyn	Dernhelm, White Lady of Rohan, Lady of the Shield-arm		Rohan and Ithilien
+8	24	Eowyn	Dernhelm, White Lady of Rohan, Lady of the Shield-arm		Rohan and Ithilien
+9	24	Eowyn	Dernhelm, White Lady of Rohan, Lady of the Shield-arm		Rohan and Ithilien
+10	24	Eowyn	Dernhelm, White Lady of Rohan, Lady of the Shield-arm		Rohan and Ithilien
+11	24	Eowyn	Dernhelm, White Lady of Rohan, Lady of the Shield-arm		Rohan and Ithilien
+12	24	Eowyn	Dernhelm, White Lady of Rohan, Lady of the Shield-arm		Rohan and Ithilien
+5	25	Eomer	Eadig	King of Rohan	Rohan
+6	25	Eomer	Eadig	King of Rohan	Rohan
+7	25	Eomer	Eadig	King of Rohan	Rohan
+8	25	Eomer	Eadig	King of Rohan	Rohan
+9	25	Eomer	Eadig	King of Rohan	Rohan
+10	25	Eomer	Eadig	King of Rohan	Rohan
+11	25	Eomer	Eadig	King of Rohan	Rohan
+12	25	Eomer	Eadig	King of Rohan	Rohan
+5	26	Faramir		Steward of Gondor, Prince of Ithilien, Lord of Emyn Arnen, Captain of Gondor	Ithilien, Gondor
+6	26	Faramir		Steward of Gondor, Prince of Ithilien, Lord of Emyn Arnen, Captain of Gondor	Ithilien, Gondor
+7	26	Faramir		Steward of Gondor, Prince of Ithilien, Lord of Emyn Arnen, Captain of Gondor	Ithilien, Gondor
+8	26	Faramir		Steward of Gondor, Prince of Ithilien, Lord of Emyn Arnen, Captain of Gondor	Ithilien, Gondor
+9	26	Faramir		Steward of Gondor, Prince of Ithilien, Lord of Emyn Arnen, Captain of Gondor	Ithilien, Gondor
+10	26	Faramir		Steward of Gondor, Prince of Ithilien, Lord of Emyn Arnen, Captain of Gondor	Ithilien, Gondor
+11	26	Faramir		Steward of Gondor, Prince of Ithilien, Lord of Emyn Arnen, Captain of Gondor	Ithilien, Gondor
+12	26	Faramir		Steward of Gondor, Prince of Ithilien, Lord of Emyn Arnen, Captain of Gondor	Ithilien, Gondor
+6	27	Denethor		Ruling Steward	Gondor
+7	27	Denethor		Ruling Steward	Gondor
+9	27	Denethor		Ruling Steward	Gondor
+10	27	Denethor		Ruling Steward	Gondor
+11	27	Denethor		Ruling Steward	Gondor
+12	27	Denethor		Ruling Steward	Gondor
+1	28	Lurtz			Isengard
+2	28	Lurtz			Isengard
+3	28	Lurtz			Isengard
+4	28	Lurtz			Isengard
+9	28	Witch King / Gothmog	Black Captain, Chief of the Nine, Lord of Minas Morgul	Lord of the Nazgul	Angmar, Minas Morgul
+10	28	Witch King / Gothmog	Black Captain, Chief of the Nine, Lord of Minas Morgul	Lord of the Nazgul	Angmar, Minas Morgul
+11	28	Witch King / Gothmog	Black Captain, Chief of the Nine, Lord of Minas Morgul	Lord of the Nazgul	Angmar, Minas Morgul
+12	28	Witch King / Gothmog	Black Captain, Chief of the Nine, Lord of Minas Morgul	Lord of the Nazgul	Angmar, Minas Morgul
+15	28	Bolg	Bolg of the North	Orc-chieftain	Mount Gundabad
+16	28	Bolg	Bolg of the North	Orc-chieftain	Mount Gundabad
+9	29	Deagol			near Gladden Fields
+10	29	Deagol			near Gladden Fields
+11	29	Deagol			near Gladden Fields
+12	29	Deagol			near Gladden Fields
+13	29	Young Thrain		King of Durin’s Folk	Lonely Mountain
+14	29	Young Thrain		King of Durin’s Folk	Lonely Mountain
+1	30	Everard Proudfoot			Hobbiton
+2	30	Everard Proudfoot			Hobbiton
+3	30	Everard Proudfoot			Hobbiton
+4	30	Everard Proudfoot			Hobbiton
+9	30	Everard Proudfoot			Hobbiton
+10	30	Everard Proudfoot			Hobbiton
+11	30	Everard Proudfoot			Hobbiton
+12	30	Everard Proudfoot			Hobbiton
+5	31	Madril		Ranger of Ithilien	Ithilien, Gondor
+6	31	Madril		Ranger of Ithilien	Ithilien, Gondor
+7	31	Madril		Ranger of Ithilien	Ithilien, Gondor
+8	31	Madril		Ranger of Ithilien	Ithilien, Gondor
+13	31	Madril		Ranger of Ithilien	Ithilien, Gondor
+14	31	Madril		Ranger of Ithilien	Ithilien, Gondor
+1	32	Celeborn	Teleporno	Lord of the Galadhrim, Lord of Lorien, The Wise	Doriath, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien, East Lorien
+2	32	Celeborn	Teleporno	Lord of the Galadhrim, Lord of Lorien, The Wise	Doriath, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien, East Lorien
+3	32	Celeborn	Teleporno	Lord of the Galadhrim, Lord of Lorien, The Wise	Doriath, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien, East Lorien
+4	32	Celeborn	Teleporno	Lord of the Galadhrim, Lord of Lorien, The Wise	Doriath, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien, East Lorien
+5	32	Celeborn	Teleporno	Lord of the Galadhrim, Lord of Lorien, The Wise	Doriath, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien, East Lorien
+6	32	Celeborn	Teleporno	Lord of the Galadhrim, Lord of Lorien, The Wise	Doriath, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien, East Lorien
+7	32	Celeborn	Teleporno	Lord of the Galadhrim, Lord of Lorien, The Wise	Doriath, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien, East Lorien
+8	32	Celeborn	Teleporno	Lord of the Galadhrim, Lord of Lorien, The Wise	Doriath, Harlindon, Eriador, Eregion, Imladris, Belfalas, Lothlorien, East Lorien
+5	33	Gamling	Gamling the Old	Captain  	Rohan
+6	33	Gamling	Gamling the Old	Captain  	Rohan
+7	33	Gamling	Gamling the Old	Captain  	Rohan
+8	33	Gamling	Gamling the Old	Captain  	Rohan
+9	33	Gamling	Gamling the Old	Captain  	Rohan
+10	33	Gamling	Gamling the Old	Captain  	Rohan
+11	33	Gamling	Gamling the Old	Captain  	Rohan
+12	33	Gamling	Gamling the Old	Captain  	Rohan
+1	34	Rosie Cotton			Bywater, Bag End, Hobbiton
+2	34	Rosie Cotton			Bywater, Bag End, Hobbiton
+3	34	Rosie Cotton			Bywater, Bag End, Hobbiton
+4	34	Rosie Cotton			Bywater, Bag End, Hobbiton
+9	34	Rosie Cotton			Bywater, Bag End, Hobbiton
+10	34	Rosie Cotton			Bywater, Bag End, Hobbiton
+11	34	Rosie Cotton			Bywater, Bag End, Hobbiton
+12	34	Rosie Cotton			Bywater, Bag End, Hobbiton
+5	35	Ugluk			Northern Rohan and Isengard, Mordor
+6	35	Ugluk			Northern Rohan and Isengard, Mordor
+7	35	Ugluk			Northern Rohan and Isengard, Mordor
+8	35	Ugluk			Northern Rohan and Isengard, Mordor
+5	36	Hama		Doorward of Theoden, Captain of the King’s Guard	Rohan
+6	36	Hama		Doorward of Theoden, Captain of the King’s Guard	Rohan
+7	36	Hama		Doorward of Theoden, Captain of the King’s Guard	Rohan
+8	36	Hama		Doorward of Theoden, Captain of the King’s Guard	Rohan
+1	37	Haldir			Lothlorien
+2	37	Haldir			Lothlorien
+3	37	Haldir			Lothlorien
+7	37	Haldir			Lothlorien
+5	37	Haldir			Lothlorien
+6	37	Haldir			Lothlorien
+7	37	Haldir			Lothlorien
+8	37	Haldir			Lothlorien
+9	37	Gothmog (voice)		Lieutenant of Morgul, Second-in-command to the Witch-king	Mordor
+10	37	Gothmog (voice)		Lieutenant of Morgul, Second-in-command to the Witch-king	Mordor
+11	37	Gothmog (voice)		Lieutenant of Morgul, Second-in-command to the Witch-king	Mordor
+12	37	Gothmog (voice)		Lieutenant of Morgul, Second-in-command to the Witch-king	Mordor
+5	38	Grishnakh		Orc-captain	Mordor
+6	38	Grishnakh		Orc-captain	Mordor
+7	38	Grishnakh		Orc-captain	Mordor
+8	38	Grishnakh		Orc-captain	Mordor
+9	38	Gorbag		Uruk Captain	Minas Morgul
+10	38	Gorbag		Uruk Captain	Minas Morgul
+11	38	Gorbag		Uruk Captain	Minas Morgul
+12	38	Gorbag		Uruk Captain	Minas Morgul
+13	38	Fimbul		Lieutenant of Azog	
+14	38	Fimbul		Lieutenant of Azog	
+13	38	Grinnah		Interrogator of Goblin town	
+14	38	Grinnah		Interrogator of Goblin town	
+15	38	Fimbul  		Lieutenant of Azog	
+16	38	Fimbul  		Lieutenant of Azog	
+13	39	Bilbo Baggins	Burglar, Thief, Clue-finder, Web-cutter, Stinging Fly, Ringwinner, Luckwearer, Barrel-rider, Mr. Lucky Number, Child of the Kindly West, Bilbo the Magnificent, Elf-friend, Mad Baggins, Bilba Labingi	Ring-bearer	Bag End, Hobbiton, Rivendell
+14	39	Bilbo Baggins	Burglar, Thief, Clue-finder, Web-cutter, Stinging Fly, Ringwinner, Luckwearer, Barrel-rider, Mr. Lucky Number, Child of the Kindly West, Bilbo the Magnificent, Elf-friend, Mad Baggins, Bilba Labingi	Ring-bearer	Bag End, Hobbiton, Rivendell
+15	39	Bilbo Baggins	Burglar, Thief, Clue-finder, Web-cutter, Stinging Fly, Ringwinner, Luckwearer, Barrel-rider, Mr. Lucky Number, Child of the Kindly West, Bilbo the Magnificent, Elf-friend, Mad Baggins, Bilba Labingi	Ring-bearer	Bag End, Hobbiton, Rivendell
+16	39	Bilbo Baggins	Burglar, Thief, Clue-finder, Web-cutter, Stinging Fly, Ringwinner, Luckwearer, Barrel-rider, Mr. Lucky Number, Child of the Kindly West, Bilbo the Magnificent, Elf-friend, Mad Baggins, Bilba Labingi	Ring-bearer	Bag End, Hobbiton, Rivendell
+17	39	Bilbo Baggins	Burglar, Thief, Clue-finder, Web-cutter, Stinging Fly, Ringwinner, Luckwearer, Barrel-rider, Mr. Lucky Number, Child of the Kindly West, Bilbo the Magnificent, Elf-friend, Mad Baggins, Bilba Labingi	Ring-bearer	Bag End, Hobbiton, Rivendell
+18	39	Bilbo Baggins	Burglar, Thief, Clue-finder, Web-cutter, Stinging Fly, Ringwinner, Luckwearer, Barrel-rider, Mr. Lucky Number, Child of the Kindly West, Bilbo the Magnificent, Elf-friend, Mad Baggins, Bilba Labingi	Ring-bearer	Bag End, Hobbiton, Rivendell
+13	40	Thorin	Thorin Oakenshield	King of Durin’s Folk, King under the Mountain	Dunland, Thorin’s Halls, Erebor
+14	40	Thorin	Thorin Oakenshield	King of Durin’s Folk, King under the Mountain	Dunland, Thorin’s Halls, Erebor
+15	40	Thorin	Thorin Oakenshield	King of Durin’s Folk, King under the Mountain	Dunland, Thorin’s Halls, Erebor
+16	40	Thorin	Thorin Oakenshield	King of Durin’s Folk, King under the Mountain	Dunland, Thorin’s Halls, Erebor
+17	40	Thorin	Thorin Oakenshield	King of Durin’s Folk, King under the Mountain	Dunland, Thorin’s Halls, Erebor
+18	40	Thorin	Thorin Oakenshield	King of Durin’s Folk, King under the Mountain	Dunland, Thorin’s Halls, Erebor
+13	41	Balin		Lord of Moria	Thorin’s Halls, Lonely Mountain, Khazad-dum
+14	41	Balin		Lord of Moria	Thorin’s Halls, Lonely Mountain, Khazad-dum
+15	41	Balin		Lord of Moria	Thorin’s Halls, Lonely Mountain, Khazad-dum
+16	41	Balin		Lord of Moria	Thorin’s Halls, Lonely Mountain, Khazad-dum
+17	41	Balin		Lord of Moria	Thorin’s Halls, Lonely Mountain, Khazad-dum
+18	41	Balin		Lord of Moria	Thorin’s Halls, Lonely Mountain, Khazad-dum
+13	42	Dwalin			Thorin’s Halls, Lonely Mountain
+14	42	Dwalin			Thorin’s Halls, Lonely Mountain
+15	42	Dwalin			Thorin’s Halls, Lonely Mountain
+16	42	Dwalin			Thorin’s Halls, Lonely Mountain
+17	42	Dwalin			Thorin’s Halls, Lonely Mountain
+18	42	Dwalin			Thorin’s Halls, Lonely Mountain
+13	43	Tom Troll			Trollshaws
+14	43	Tom Troll			Trollshaws
+13	43	Bifur			Thorin’s Halls, Lonely Mountain
+14	43	Bifur			Thorin’s Halls, Lonely Mountain
+15	43	Bifur			Thorin’s Halls, Lonely Mountain
+16	43	Bifur			Thorin’s Halls, Lonely Mountain
+17	43	Bifur			Thorin’s Halls, Lonely Mountain
+18	43	Bifur			Thorin’s Halls, Lonely Mountain
+13	44	Bofur			Thorin’s Halls, Lonely Mountain
+14	44	Bofur			Thorin’s Halls, Lonely Mountain
+15	44	Bofur			Thorin’s Halls, Lonely Mountain
+16	44	Bofur			Thorin’s Halls, Lonely Mountain
+17	44	Bofur			Thorin’s Halls, Lonely Mountain
+18	44	Bofur			Thorin’s Halls, Lonely Mountain
+13	45	Bombur			Thorin’s Halls, Lonely Mountain
+14	45	Bombur			Thorin’s Halls, Lonely Mountain
+15	45	Bombur			Thorin’s Halls, Lonely Mountain
+16	45	Bombur			Thorin’s Halls, Lonely Mountain
+17	45	Bombur			Thorin’s Halls, Lonely Mountain
+18	45	Bombur			Thorin’s Halls, Lonely Mountain
+13	46	Fili			Thorin’s Halls
+14	46	Fili			Thorin’s Halls
+15	46	Fili			Thorin’s Halls
+16	46	Fili			Thorin’s Halls
+17	46	Fili			Thorin’s Halls
+18	46	Fili			Thorin’s Halls
+13	47	Kili			Thorin’s Halls
+14	47	Kili			Thorin’s Halls
+15	47	Kili			Thorin’s Halls
+16	47	Kili			Thorin’s Halls
+17	47	Kili			Thorin’s Halls
+18	47	Kili			Thorin’s Halls
+13	48	Oin			Thorin’s Halls, Lonely Mountain, Khazad-dum
+14	48	Oin			Thorin’s Halls, Lonely Mountain, Khazad-dum
+15	48	Oin			Thorin’s Halls, Lonely Mountain, Khazad-dum
+16	48	Oin			Thorin’s Halls, Lonely Mountain, Khazad-dum
+17	48	Oin			Thorin’s Halls, Lonely Mountain, Khazad-dum
+18	48	Oin			Thorin’s Halls, Lonely Mountain, Khazad-dum
+13	49	William Troll			Trollshaws
+14	49	William Troll			Trollshaws
+13	49	Gloin			Thorin’s Halls, Lonely Mountain
+14	49	Gloin			Thorin’s Halls, Lonely Mountain
+15	49	Gloin			Thorin’s Halls, Lonely Mountain
+16	49	Gloin			Thorin’s Halls, Lonely Mountain
+17	49	Gloin			Thorin’s Halls, Lonely Mountain
+18	49	Gloin 			Thorin’s Halls, Lonely Mountain
+13	50	Nori			Thorin’s Halls, Erebor
+14	50	Nori			Thorin’s Halls, Erebor
+15	50	Nori			Thorin’s Halls, Erebor
+16	50	Nori			Thorin’s Halls, Erebor
+17	50	Nori			Thorin’s Halls, Erebor
+18	50	Nori			Thorin’s Halls, Erebor
+9	50	Featured Orc			
+10	50	Featured Orc			
+11	50	Featured Orc			
+12	50	Featured Orc			
+5	50	Sharku / Snaga			
+6	50	Sharku / Snaga			
+7	50	Sharku / Snaga			
+8	50	Sharku / Snaga			
+1	50	Ringwraith	Nazgul, the Black Riders, the Nine, Ulairi		Mordor, Angmar, Dol Guldur, Minas Morgul
+2	50	Ringwraith	Nazgul, the Black Riders, the Nine, Ulairi		Mordor, Angmar, Dol Guldur, Minas Morgul
+3	50	Ringwraith	Nazgul, the Black Riders, the Nine, Ulairi		Mordor, Angmar, Dol Guldur, Minas Morgul
+4	50	Ringwraith	Nazgul, the Black Riders, the Nine, Ulairi		Mordor, Angmar, Dol Guldur, Minas Morgul
+13	51	Bert Troll			Trollshaws
+14	51	Bert Troll			Trollshaws
+13	51	Dori  			Thorin’s Halls, Lonely Mountain
+14	51	Dori  			Thorin’s Halls, Lonely Mountain
+15	51	Dori  			Thorin’s Halls, Lonely Mountain
+16	51	Dori  			Thorin’s Halls, Lonely Mountain
+17	51	Dori  			Thorin’s Halls, Lonely Mountain
+18	51	Dori  			Thorin’s Halls, Lonely Mountain
+13	52	Ori			Thorin’s Halls, Lonely Mountain, Khazad-dum
+14	52	Ori			Thorin’s Halls, Lonely Mountain, Khazad-dum
+15	52	Ori			Thorin’s Halls, Lonely Mountain, Khazad-dum
+16	52	Ori			Thorin’s Halls, Lonely Mountain, Khazad-dum
+17	52	Ori			Thorin’s Halls, Lonely Mountain, Khazad-dum
+18	52	Ori			Thorin’s Halls, Lonely Mountain, Khazad-dum
+13	53	Radagast	Aiwendil, Radagast the Brown, Radagast the Bird-tamer, Radagast the Simple, Radagast the Fool		Rhosgobel
+14	53	Radagast	Aiwendil, Radagast the Brown, Radagast the Bird-tamer, Radagast the Simple, Radagast the Fool		Rhosgobel
+15	53	Radagast	Aiwendil, Radagast the Brown, Radagast the Bird-tamer, Radagast the Simple, Radagast the Fool		Rhosgobel
+16	53	Radagast	Aiwendil, Radagast the Brown, Radagast the Bird-tamer, Radagast the Simple, Radagast the Fool		Rhosgobel
+17	53	Radagast	Aiwendil, Radagast the Brown, Radagast the Bird-tamer, Radagast the Simple, Radagast the Fool		Rhosgobel
+18	53	Radagast	Aiwendil, Radagast the Brown, Radagast the Bird-tamer, Radagast the Simple, Radagast the Fool		Rhosgobel
+13	54	Great Goblin			Goblin-town
+14	54	Great Goblin			Goblin-town
+13	55	Thror		King of Durin’s Folk, King under the Mountain	Grey Mountains, Lonely Mountain
+14	55	Thror		King of Durin’s Folk, King under the Mountain	Grey Mountains, Lonely Mountain
+15	55	Thror		King of Durin’s Folk, King under the Mountain	Grey Mountains, Lonely Mountain
+16	55	Thror		King of Durin’s Folk, King under the Mountain	Grey Mountains, Lonely Mountain
+13	56	Thrain		King of Durin’s Folk	Lonely Mountain
+14	56	Thrain		King of Durin’s Folk	Lonely Mountain
+16	56	Thrain		King of Durin’s Folk	Lonely Mountain
+13	57	Thranduil	The Elvenking	King of the Silvan Elves in northern Mirkwood	Woodland Realm
+14	57	Thranduil	The Elvenking	King of the Silvan Elves in northern Mirkwood	Woodland Realm
+15	57	Thranduil	The Elvenking	King of the Silvan Elves in northern Mirkwood	Woodland Realm
+16	57	Thranduil	The Elvenking	King of the Silvan Elves in northern Mirkwood	Woodland Realm
+17	57	Thranduil	The Elvenking	King of the Silvan Elves in northern Mirkwood	Woodland Realm
+18	57	Thranduil	The Elvenking	King of the Silvan Elves in northern Mirkwood	Woodland Realm
+13	58	Azog		Orc-chieftain	
+14	58	Azog		Orc-chieftain	
+15	58	Azog		Orc-chieftain	
+16	58	Azog		Orc-chieftain	
+17	58	Azog		Orc-chieftain	
+18	58	Azog		Orc-chieftain	
+13	59	Bolg	Bolg of the North	Orc-chieftain	Mount Gundabad
+14	59	Bolg	Bolg of the North	Orc-chieftain	Mount Gundabad
+17	59	Keeper of the Dungeons		Keeper of the Dungeons	
+18	59	Keeper of the Dungeons		Keeper of the Dungeons	
+13	61	Lindir			Rivendell
+14	61	Lindir			Rivendell
+9	61	Elf Escort			
+10	61	Elf Escort			
+11	61	Elf Escort			
+12	61	Elf Escort			
+1	61	Figwit	Aegnor, Elf Escort		
+2	61	Figwit	Aegnor, Elf Escort		
+3	61	Figwit	Aegnor, Elf Escort		
+4	61	Figwit	Aegnor, Elf Escort		
+15	62	Tauriel		Guard	
+16	62	Tauriel		Guard	
+17	62	Tauriel		Guard	
+18	62	Tauriel		Guard	Elvenking’s Halls, Lake-town, Erebor
+13	63	Necromancer (voice)	see Sauron	see Sauron	Elvenking’s Halls, Lake-town, Erebor
+14	63	Necromancer (voice)	see Sauron	see Sauron	Elvenking’s Halls, Lake-town, Erebor
+15	63	Necromancer (voice)	see Sauron	see Sauron	Elvenking’s Halls, Lake-town, Erebor
+16	63	Necromancer (voice)	see Sauron	see Sauron	Elvenking’s Halls, Lake-town, Erebor
+17	63	Necromancer (voice)	see Sauron	see Sauron	Elvenking’s Halls, Lake-town, Erebor
+18	63	Necromancer (voice)	see Sauron	see Sauron	Elvenking’s Halls, Lake-town, Erebor
+15	63	Smaug	Smaug the Golden, Lord Smaug the Impenetrable, Tragu, Smaug the Tremendous, Smaug the Chiefest and Greatest of Calamities, Smaug the Mighty, Smaug the Unassessably Wealthy, Your Magnificence, Smaug the Terrible, Smaug the Dreadful, Old Worm, Worm of Dread, The Dragon, Pryftan 		Erebor
+16	63	Smaug	Smaug the Golden, Lord Smaug the Impenetrable, Tragu, Smaug the Tremendous, Smaug the Chiefest and Greatest of Calamities, Smaug the Mighty, Smaug the Unassessably Wealthy, Your Magnificence, Smaug the Terrible, Smaug the Dreadful, Old Worm, Worm of Dread, The Dragon, Pryftan 		Erebor
+17	63	Smaug	Smaug the Golden, Lord Smaug the Impenetrable, Tragu, Smaug the Tremendous, Smaug the Chiefest and Greatest of Calamities, Smaug the Mighty, Smaug the Unassessably Wealthy, Your Magnificence, Smaug the Terrible, Smaug the Dreadful, Old Worm, Worm of Dread, The Dragon, Pryftan 		Erebor
+18	63	Smaug	Smaug the Golden, Lord Smaug the Impenetrable, Tragu, Smaug the Tremendous, Smaug the Chiefest and Greatest of Calamities, Smaug the Mighty, Smaug the Unassessably Wealthy, Your Magnificence, Smaug the Terrible, Smaug the Dreadful, Old Worm, Worm of Dread, The Dragon, Pryftan 		Erebor
+15	64	Beorn			Beorn’s Hall
+16	64	Beorn			Beorn’s Hall
+17	64	Beorn			Beorn’s Hall
+18	64	Beorn			Beorn’s Hall
+15	65	Bard  	Bard I, Bard the Bowman	King of Dale	Lake-town, Dale
+16	65	Bard  	Bard I, Bard the Bowman	King of Dale	Lake-town, Dale
+17	65	Bard  	Bard I, Bard the Bowman	King of Dale	Lake-town, Dale
+18	65	Bard  	Bard I, Bard the Bowman	King of Dale	Lake-town, Dale
+15	65	Girion		Lord of Dale	Dale
+16	65	Girion		Lord of Dale	Dale
+15	66	Master of Lake-town	Moneybags	Master of Lake-town	Lake-town 
+16	66	Master of Lake-town	Moneybags	Master of Lake-town	Lake-town 
+17	66	Master of Lake-town	Moneybags	Master of Lake-town	Lake-town 
+18	66	Master of Lake-town	Moneybags	Master of Lake-town	Lake-town 
+15	67	Alfrid Lickspittle		Chief Overseer of the Master of Lake-town	Lake-town 
+16	67	Alfrid Lickspittle		Chief Overseer of the Master of Lake-town	Lake-town 
+17	67	Alfrid Lickspittle		Chief Overseer of the Master of Lake-town	Lake-town 
+18	67	Alfrid Lickspittle		Chief Overseer of the Master of Lake-town	Lake-town 
+15	68	Bain		King of Dale	Lake-town, Dale
+16	68	Bain		King of Dale	Lake-town, Dale
+17	68	Bain		King of Dale	Lake-town, Dale
+18	68	Bain		King of Dale	Lake-town, Dale
+13	69	Dale Girl			Lake-town, Dale
+14	69	Dale Girl			Lake-town, Dale
+15	69	Sigrid			Lake-town
+16	69	Sigrid			Lake-town
+17	69	Sigrid			Lake-town
+18	69	Sigrid			Lake-town
+13	70	Dale Girl			Lake-town, Dale
+14	70	Dale Girl			Lake-town, Dale
+15	70	Tilda			Lake-town
+16	70	Tilda			Lake-town
+17	70	Tilda			Lake-town
+18	70	Tilda			Lake-town
+15	71	Narzug			
+16	71	Narzug			
+15	72	Feren			Woodland Realm
+16	72	Feren			Woodland Realm
+17	72	Feren			Woodland Realm
+18	72	Feren			Woodland Realm
+15	73	Braga		Captain of the Lake-town Guard	Lake-town
+16	73	Braga		Captain of the Lake-town Guard	Lake-town
+17	73	Braga		Captain of the Lake-town Guard	Lake-town
+18	73	Braga		Captain of the Lake-town Guard	Lake-town
+15	74	Soury			Lake-town
+16	74	Soury			Lake-town
+17	74	Soury			Lake-town
+18	74	Soury			Lake-town
+15	75	Hilda Bianca			Lake-town
+16	75	Hilda Bianca			Lake-town
+17	75	Hilda Bianca			Lake-town
+18	75	Hilda Bianca			Lake-town
+15	76	Percy			Lake-town
+16	76	Percy			Lake-town
+17	76	Percy			Lake-town
+18	76	Percy			Lake-town
+1	77	Cute Hobbit Child			
+2	77	Cute Hobbit Child			
+3	77	Cute Hobbit Child			
+4	77	Cute Hobbit Child			
+5	77	Cute Rohan Refugee Child			
+6	77	Cute Rohan Refugee Child			
+7	77	Cute Rohan Refugee Child			
+8	77	Cute Rohan Refugee Child			
+9	77	Featured Child			
+10	77	Featured Child			
+11	77	Featured Child			
+12	77	Featured Child			
+13	77	Cute Young Hobbit			
+14	77	Cute Young Hobbit			
+15	77	Betsy Butterbur			
+16	77	Betsy Butterbur			
+17	77	Girl in Laketown			Lake-town
+18	77	Girl in Laketown			Lake-town
+13	78	Erebor Dwarf Guard			
+14	78	Erebor Dwarf Guard			
+15	78	Butterbur Snr			
+16	78	Butterbur Snr			
+17	78	Laketown Guard			Lake-town
+18	78	Laketown Guard			Lake-town
+17	79	Dain	Dain II	Lord of the Iron Hills, King of Durin’s Folk, King under the Mountain	Iron Hills, Lonely Mountain
+18	79	Dain	Dain II	Lord of the Iron Hills, King of Durin’s Folk, King under the Mountain	Iron Hills, Lonely Mountain
+1	80	Cute Hobbit Child			
+2	80	Cute Hobbit Child			
+3	80	Cute Hobbit Child			
+4	80	Cute Hobbit Child			
+5	80	Cute Rohan Refugee Child			
+6	80	Cute Rohan Refugee Child			
+7	80	Cute Rohan Refugee Child			
+8	80	Cute Rohan Refugee Child			
+9	80	Featured Child			
+10	80	Featured Child			
+11	80	Featured Child			
+12	80	Featured Child			
+17	80	Laketown Refugee			Lake-town
+18	80	Laketown Refugee			Lake-town
+13	82				
+14	82				
+15	82				
+16	82				
+17	82				
+18	82				
+1	83	Sauron	Annatar, Artano, Aulendil, Gorthaur, Mairon, Norsus, Zigur, The Necromancer, The Shadow, The Enemy, The Terrible, The Ruler, The Dark Power, The Black One, The Black Hand, The Deceiver, The Nameless One, The Black Master, The Sorcerer, The Abhorred Dread	The Base Master of Treachery, The Dark Lord, Lord of the Earth, King of Kings, King of Men, The Lord of the Rings, Lord of the World, Ring-maker	Utumno, Tol-in-Gaurhoth, Angband, Numenor, Dol Guldur, Mordor
+2	83	Sauron	Annatar, Artano, Aulendil, Gorthaur, Mairon, Norsus, Zigur, The Necromancer, The Shadow, The Enemy, The Terrible, The Ruler, The Dark Power, The Black One, The Black Hand, The Deceiver, The Nameless One, The Black Master, The Sorcerer, The Abhorred Dread	The Base Master of Treachery, The Dark Lord, Lord of the Earth, King of Kings, King of Men, The Lord of the Rings, Lord of the World, Ring-maker	Utumno, Tol-in-Gaurhoth, Angband, Numenor, Dol Guldur, Mordor
+3	83	Sauron	Annatar, Artano, Aulendil, Gorthaur, Mairon, Norsus, Zigur, The Necromancer, The Shadow, The Enemy, The Terrible, The Ruler, The Dark Power, The Black One, The Black Hand, The Deceiver, The Nameless One, The Black Master, The Sorcerer, The Abhorred Dread	The Base Master of Treachery, The Dark Lord, Lord of the Earth, King of Kings, King of Men, The Lord of the Rings, Lord of the World, Ring-maker	Utumno, Tol-in-Gaurhoth, Angband, Numenor, Dol Guldur, Mordor
+4	83	Sauron	Annatar, Artano, Aulendil, Gorthaur, Mairon, Norsus, Zigur, The Necromancer, The Shadow, The Enemy, The Terrible, The Ruler, The Dark Power, The Black One, The Black Hand, The Deceiver, The Nameless One, The Black Master, The Sorcerer, The Abhorred Dread	The Base Master of Treachery, The Dark Lord, Lord of the Earth, King of Kings, King of Men, The Lord of the Rings, Lord of the World, Ring-maker	Utumno, Tol-in-Gaurhoth, Angband, Numenor, Dol Guldur, Mordor
+1	83	Lugdush			Isengard
+2	83	Lugdush			Isengard
+3	83	Lugdush			Isengard
+4	83	Lugdush			Isengard
+5	83	Sauron	Annatar, Artano, Aulendil, Gorthaur, Mairon, Norsus, Zigur, The Necromancer, The Shadow, The Enemy, The Terrible, The Ruler, The Dark Power, The Black One, The Black Hand, The Deceiver, The Nameless One, The Black Master, The Sorcerer, The Abhorred Dread	The Base Master of Treachery, The Dark Lord, Lord of the Earth, King of Kings, King of Men, The Lord of the Rings, Lord of the World, Ring-maker	Utumno, Tol-in-Gaurhoth, Angband, Numenor, Dol Guldur, Mordor
+6	83	Sauron	Annatar, Artano, Aulendil, Gorthaur, Mairon, Norsus, Zigur, The Necromancer, The Shadow, The Enemy, The Terrible, The Ruler, The Dark Power, The Black One, The Black Hand, The Deceiver, The Nameless One, The Black Master, The Sorcerer, The Abhorred Dread	The Base Master of Treachery, The Dark Lord, Lord of the Earth, King of Kings, King of Men, The Lord of the Rings, Lord of the World, Ring-maker	Utumno, Tol-in-Gaurhoth, Angband, Numenor, Dol Guldur, Mordor
+7	83	Sauron	Annatar, Artano, Aulendil, Gorthaur, Mairon, Norsus, Zigur, The Necromancer, The Shadow, The Enemy, The Terrible, The Ruler, The Dark Power, The Black One, The Black Hand, The Deceiver, The Nameless One, The Black Master, The Sorcerer, The Abhorred Dread	The Base Master of Treachery, The Dark Lord, Lord of the Earth, King of Kings, King of Men, The Lord of the Rings, Lord of the World, Ring-maker	Utumno, Tol-in-Gaurhoth, Angband, Numenor, Dol Guldur, Mordor
+8	83	Sauron	Annatar, Artano, Aulendil, Gorthaur, Mairon, Norsus, Zigur, The Necromancer, The Shadow, The Enemy, The Terrible, The Ruler, The Dark Power, The Black One, The Black Hand, The Deceiver, The Nameless One, The Black Master, The Sorcerer, The Abhorred Dread	The Base Master of Treachery, The Dark Lord, Lord of the Earth, King of Kings, King of Men, The Lord of the Rings, Lord of the World, Ring-maker	Utumno, Tol-in-Gaurhoth, Angband, Numenor, Dol Guldur, Mordor
+5	83	Man-flesh Uruk			Northern Rohan and Isengard, Mordor
+6	83	Man-flesh Uruk			Northern Rohan and Isengard, Mordor
+7	83	Man-flesh Uruk			Northern Rohan and Isengard, Mordor
+8	83	Man-flesh Uruk			Northern Rohan and Isengard, Mordor
+9	83	Sauron	Annatar, Artano, Aulendil, Gorthaur, Mairon, Norsus, Zigur, The Necromancer, The Shadow, The Enemy, The Terrible, The Ruler, The Dark Power, The Black One, The Black Hand, The Deceiver, The Nameless One, The Black Master, The Sorcerer, The Abhorred Dread	The Base Master of Treachery, The Dark Lord, Lord of the Earth, King of Kings, King of Men, The Lord of the Rings, Lord of the World, Ring-maker	Utumno, Tol-in-Gaurhoth, Angband, Numenor, Dol Guldur, Mordor
+10	83	Sauron	Annatar, Artano, Aulendil, Gorthaur, Mairon, Norsus, Zigur, The Necromancer, The Shadow, The Enemy, The Terrible, The Ruler, The Dark Power, The Black One, The Black Hand, The Deceiver, The Nameless One, The Black Master, The Sorcerer, The Abhorred Dread	The Base Master of Treachery, The Dark Lord, Lord of the Earth, King of Kings, King of Men, The Lord of the Rings, Lord of the World, Ring-maker	Utumno, Tol-in-Gaurhoth, Angband, Numenor, Dol Guldur, Mordor
+11	83	Sauron	Annatar, Artano, Aulendil, Gorthaur, Mairon, Norsus, Zigur, The Necromancer, The Shadow, The Enemy, The Terrible, The Ruler, The Dark Power, The Black One, The Black Hand, The Deceiver, The Nameless One, The Black Master, The Sorcerer, The Abhorred Dread	The Base Master of Treachery, The Dark Lord, Lord of the Earth, King of Kings, King of Men, The Lord of the Rings, Lord of the World, Ring-maker	Utumno, Tol-in-Gaurhoth, Angband, Numenor, Dol Guldur, Mordor
+12	83	Sauron	Annatar, Artano, Aulendil, Gorthaur, Mairon, Norsus, Zigur, The Necromancer, The Shadow, The Enemy, The Terrible, The Ruler, The Dark Power, The Black One, The Black Hand, The Deceiver, The Nameless One, The Black Master, The Sorcerer, The Abhorred Dread	The Base Master of Treachery, The Dark Lord, Lord of the Earth, King of Kings, King of Men, The Lord of the Rings, Lord of the World, Ring-maker	Utumno, Tol-in-Gaurhoth, Angband, Numenor, Dol Guldur, Mordor
+9	83	Murgash			Mordor
+10	83	Murgash			Mordor
+11	83	Murgash			Mordor
+12	83	Murgash			Mordor
+17	81	Bolg	Bolg of the North	Orc-chieftain	Mount Gundabad
+18	81	Bolg	Bolg of the North	Orc-chieftain	Mount Gundabad
+13	60	Yazneg		Former Lieutenant of Azog	
+14	60	Yazneg		Former Lieutenant of Azog	

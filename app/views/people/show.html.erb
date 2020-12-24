@@ -1,0 +1,24 @@
+<% if logged_in %>
+    <h2><%= @person.name %></h2>
+
+    <h4>All movies by <%= @person.name %>.</h4>
+    <ul><% @person.movies.each do |movie| %>
+        <%= link_to movie.name, movie_path(movie) %></li>
+    <% end %></ul>
+
+    <h4>Your movies by <%= @person.name %>.</h4>
+    <ul><% @person.movies.each do |movie| %>
+        <%= link_to movie.name, user_collection_path(current_user, movie) %></li>
+    <% end %></ul>  
+
+<% else %>
+
+    <h2><%= @person.name %></h2>
+
+    <ul><% @person.movies.each do |movie| %>
+        <li><%= link_to movie.name, movie_path(movie) %></li>
+    <% end %></ul>
+
+<% end %>
+
+People.where(credit: "Actor" || "Actress")

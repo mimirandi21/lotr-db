@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 
+  movie_id: 
+  user_own: false
+  user_rating: 
+  user_notes: MyText
+  private_notes: MyText
+
+two:
+  user_id: 
+  movie_id: 
+  user_own: false
+  user_rating: 
+  user_notes: MyText
+  private_notes: MyText

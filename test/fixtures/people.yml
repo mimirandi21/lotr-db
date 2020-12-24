@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyText
+  imdb_link: MyText
+  img_url: MyText
+  birth_year: 
+  death_year: 
+  credit: MyText
+  fun_fact_1: MyText
+  fun_fact_2: MyText
+  fun_fact_3: MyText
+  quote_1: MyText
+  quote_2: MyText
+  quote_3: MyText
+
+two:
+  name: MyText
+  imdb_link: MyText
+  img_url: MyText
+  birth_year: 
+  death_year: 
+  credit: MyText
+  fun_fact_1: MyText
+  fun_fact_2: MyText
+  fun_fact_3: MyText
+  quote_1: MyText
+  quote_2: MyText
+  quote_3: MyText

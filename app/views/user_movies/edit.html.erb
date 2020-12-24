@@ -1,0 +1,8 @@
+<%= form_tag edit_user_movies_path do %>
+    <label>Edit</label><br>
+    <%= text_field_tag :'user_movies[source]'%><br>
+    <%= text_field_tag :'user_movies[user_rating]'%><br>
+    <%= text_field_tag :'user_movies[notes]'%><br>
+    <%= text_field_tag :'user_movies[private_notes]'%><br>
+    <%= submit_tag "Submit Changes" %>
+<% end %>

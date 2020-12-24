@@ -1,0 +1,51 @@
+<% if logged_in? %>
+    <img src=<%= @movie.poster_url %> height="300em">
+    <h3>Title: <%= @movie.name %></h3>
+    <h5>Year Released: <%= @movie.years.first %></h5>
+    <h5>Length: <%= @movie.length %></h5>
+    <ul>Genres: <% @movie.genres.each do |genre| %>
+        <li><%= genre.name %></li>
+    <% end %></ul>
+    <h5>Plot: <%= @movie.plot %></h5>
+    <h5>Rating: <%= @movie.ratings.first %></h5>
+    <ul>Review Scores: <% @movie.scores.each do |score| %>
+        <li><%= score.score %> <%= score.source %></li>
+    <% end %></ul>
+    <h5>Summary: <%= @movie.summary %></h5>
+    <ul><% @movie.directors.each do |director| %>
+        <li>Your movies by: <%= link_to director.name, user_director_path(director) %></li>
+        <li>All movies by: <%= link_to director.name, user_director_path(director) %></li>
+    <% end %></ul>
+    <ul><% @movie.actors.each do |actor| %>
+        <li>Your movies starring: <%= link_to actor.name, user_actor_path(actor) %></li>
+        <li>All movies starring: <%= link_to actor.name, actor_path(actor) %></li>
+    <% end %></ul>
+    <a href="<%= @movie.imdb_link %>">Imdb Link</a>
+    <% if @user_movie %>
+        <h3><%= @user_movie.source %></h3>
+        <h3>Your Review Score: <%= @user_movie.user_rating %></h3>
+        <h5>Your Notes: <%= @user_movie.user_notes %></h5>
+        <h5>Your Personal Notes: <%= @user_movie.private_notes %></h5>
+    <% end %>
+<% else %>
+    <img src="<%= @movie.poster_url %>" height="300em">
+    <h1>Title: <%= @movie.name %></h1>
+    <h3>Year Released:<%= @movie.years.first %></h3>
+    <h1>Length: <%= @movie.length %></h1>
+    <ul>Genres: <% @movie.genres.each do |genre| %>
+        <li><%= genre.name %></li>
+    <% end %></ul>
+    <h1>Plot: <%= @movie.plot %></h1>
+    <h3>Rating: <%= @movie.ratings.first %></h3>
+    <ul>Review Scores: <% @movie.scores.each do |score| %>
+        <li><%= score.score %> <%= score.source %></li>
+    <% end %></ul>
+    <h3>Summary: <%= @movie.summary %></h3>
+    <ul>Directors: <% @movie.directors.each do |director| %>
+        <li><%= link_to director.name, director_path(director) %></li>
+    <% end %></ul>
+    <ul>Main Cast: <% @movie.actors.each do |actor| %>
+        <li><%= link_to actor.name, actor_path(actor) %></li>
+    <% end %></ul>
+    <h3>Imdb Link: <%= @movie.imdb_link%></h3>
+<% end %>

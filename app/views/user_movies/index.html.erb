@@ -1,0 +1,15 @@
+<div>
+    <h2><%= "#{@user.name}'s Collection" %></h2>
+</div>
+<div>
+    
+<% if @user_movies %>
+    <% @user_movies.each do |movie| %>
+        <%= movie.movie.poster_url %>
+        <%= movie.movie.name %>
+        <%= movie.ratings.first %>
+    <% end %>
+<% else %>
+    <%= link_to "You don't have any movies.  Add one here.", find_path(current_user) %>
+<% end %>
+</div>

@@ -1,0 +1,11 @@
+<div>
+    <h2><%= "Hello #{@user.name}!  What would you like to do today?" %></h2>
+</div>
+<% if @errors %>
+    <%= @errors[:message] %>
+<% end %>
+<div>   
+    <h4><%= link_to("See all movies", movies_path ) %></h4>
+    <h4><%= link_to("See your movies", user_movies_path(@user)) %></h4>
+    <h4><%= link_to("Edit your account", edit_user_path(@user)) %></h4>
+</div>

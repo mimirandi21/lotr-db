@@ -1,0 +1,35 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyText
+  imdb_link: MyText
+  edition: MyText
+  plot_summary: MyText
+  length: 
+  fun_fact_1: MyText
+  fun_fact_2: MyText
+  fun_fact_3: MyText
+  imdb_review: 
+  metacritic_review: MyString
+  rating: MyText
+  rotten_tomato_review: MyText
+  img_url: MyText
+  trailer: MyText
+  genres: MyText
+
+two:
+  title: MyText
+  imdb_link: MyText
+  edition: MyText
+  plot_summary: MyText
+  length: 
+  fun_fact_1: MyText
+  fun_fact_2: MyText
+  fun_fact_3: MyText
+  imdb_review: 
+  metacritic_review: MyString
+  rating: MyText
+  rotten_tomato_review: MyText
+  img_url: MyText
+  trailer: MyText
+  genres: MyText

@@ -1,0 +1,28 @@
+<h1>Your movie has been created.</h1>
+
+    <img src="<%= @user_movie.poster_url %>">
+    <h1><%= @user_movie.name %></h1>
+
+<h3>Would you like to add any notes to your movie?</h3>
+
+<%= form_for(@user_movie) do |u| %>
+    
+        <%= u.label :source %>
+        <%= u.text_field :source %>
+        <br>
+
+        <%= u.label :user_rating %>
+        <%= u.number_field :user_rating %>
+        <br>
+        
+        <%= u.label :user_notes %>
+        <%= u.text_area :user_notes %>
+        <br>
+
+        <%= u.label :private_notes %>
+        <%= u.text_area :private_notes %>
+        <br>
+
+        <%= u.submit %>
+
+    <% end %>
