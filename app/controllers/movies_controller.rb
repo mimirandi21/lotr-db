@@ -4,6 +4,7 @@ class MoviesController < ApplicationController
     def show
         @movie = Movie.find_by(id: params[:id])
         @user_movie = UserMovie.find_by(movie_id: params[:id])
+        render :layout => 'show' 
     end
 
     def index

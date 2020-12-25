@@ -8,11 +8,28 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
+  .carousel-inner > .item > .d-block > img,
+  .carousel-inner > .item > .d-block > a > img {
+    display:block;
     height: 20em;
     margin: auto;
+    position: center;
+    padding-top: 20px;
   }
+  .carousel-inner > .item > .d-block {
+    margin:auto;
+  }
+  .carousel-inner{
+  overflow: visible;
+  }
+  .carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
+.carousel-inner > .item > .bg-dark {
+    background-color: #362602!important;
+}
   </style>
 </head>
 <body>
@@ -21,7 +38,7 @@
     <br>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
-        <ol class="carousel-indicators">
+        <ol class="carousel-indicators my-4">
         <% i = 0 %>
         <% while i < @movies.length %>
             <% if i== 0 %>
@@ -35,7 +52,7 @@
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
-
+            
             <% i= 0 %>
             <% while i < @movies.length %>
                 <% if i == 0 %>
@@ -43,15 +60,17 @@
                 <% else %>
                     <div class="item">
                 <% end %>
-       
-                <%= link_to image_tag(src="#{@movies[i][:img_url]}"), movie_path(@movies[i]) %>
+
+                <div class="d-block w-100"><%= link_to image_tag(src="#{@movies[i][:img_url]}", style:'height:300px'), movie_path(@movies[i]) %></div>
           
-            
-                        <div class="carousel-caption">
+                        <div class="carousel-caption d-none d-md-block bg-dark mb-4">
                             <h3><%=@movies[i][:title]%></h3>
+                            <h3><%=@movies[i][:edition]%></h3>
           
                         </div>
+                        
                     </div>
+                    
                 <% i+=1 %>
             <% end %>
 

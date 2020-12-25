@@ -17,7 +17,6 @@ li.nav-link {
     color: #fafafa;
 }
 
-
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     background-color: #1d1400!important;
 }
@@ -27,6 +26,7 @@ nav#sidebar {
 }
 body, html {
     height: 100%;
+    font-family: 'Poppins', sans-serif;
 }
 
 .bg {
@@ -42,14 +42,47 @@ body, html {
   background-repeat: no-repeat;
   
 }
+.bg-busy {
 
-#content {
+  /* The image used */
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("lotr-circle.jpg");
+  /* Full height */
+    min-height: 100%;
+    
+  /* Center and scale the image nicely */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.bg-busy #content-busy {
+  filter:brightness(100%);
+}
+
+h3 a {
+  color: #9b6e07;
+}
+
+h3 a:hover {
+  color:#b19a64;
+}
+
+a.brn-link {
+  color:#9b6e07;
+}
+
+a.brn-link:hover {
+  color: #b19a64;
+}
+#content, #content-busy {
   position: relative;
   width: 100%;
   padding-left: 20px;
   // transition: all 0.3s;
   top: 0;
   right: 0;
+  text-align: center;
 }
 
 
@@ -76,11 +109,6 @@ body, html {
 
 a[data-toggle="collapse"] {
   position: relative;
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
-
 }
 
 p {
@@ -118,7 +146,7 @@ a, a:hover, a:focus {
 input[type="submit" i] {
   background-color: #362602;
 }
-h1, h2, h3, h4, h5, h6, p, form, div h3, div h2, h4 a {
+h1, h2, h3, h4, h5, h6, p, form, div h1, div h4, div h5, div h3, div h2, h4 a, li a, div li, div ul {
   color:white;
 }
 
