@@ -1,3 +1,73 @@
-<ul><% @people.each do |person| %>
-    <li><%= link_to person.name, person_path(person) %></li>
-<% end %></ul>
+
+
+<div class="row row-cols-1 row-cols-md-3">
+    <h3>Actors:</h3><hr>
+    <div class="col-md-3"></div>
+    <div class="col-md-3"></div>
+    <div class="col-md-3"></div>
+    <% @people.each do |person| %>
+        
+        <% if person.credit == "actor" || person.credit == "actress" %>
+            <div class="col-md-3">
+                
+                <div class="card h-100">
+                    <%= link_to image_tag(src="#{person.img_url}", :style => 'width:80%'), person_path(person), :class => 'card-img-top' %>
+                    <div class="card-body">
+                        <h5 class="card-title"> <%= person.name %></h5>
+                        <% roles = [] %>
+                        <div class="card-text"><% person.movie_people.each do |movie| %>
+                            <% roles << movie.character %>
+                        <% end %>
+                        <p>Role:</p>
+                        <% roles.uniq.each do |role| %>
+                            <h6><%= role %></h6>
+                        <% end %>
+                        </div>          
+                    </div>
+                </div>
+            </div>
+        <% end %>    
+    <% end %>
+    <hr>
+    
+    <p>Writers:</p><br>
+    <div class="col-md-3"></div>
+    <div class="col-md-3"></div>
+    <div class="col-md-3"></div>
+    <% @people.each do |person| %>
+        <% if person.credit == "writer" %>
+            <div class="col-md-3">
+                
+                <div class="card h-100">
+                    <%= link_to image_tag(src="#{person.img_url}", :style => 'width:80%' ), person_path(person), :class => 'card-img-top'%>
+                    <div class="card-body">
+                        <h5 class="card-title"> <%= person.name %></h5>
+                        <h6>Writer</h6>
+                    </div>
+                </div>
+            </div>
+        <% end %>
+    <% end %>
+    
+    <hr>
+    <div class="col-md-3"></div>
+    <div class="col-md-3"></div>
+    <p>Director:</p><br>
+    <div class="col-md-3"></div>
+    <div class="col-md-3"></div>
+    <div class="col-md-3"></div>
+    <% @people.each do |person| %>
+        <% if person.credit == "director" %>
+            <div class="col-md-3">
+                
+                <div class="card h-100">
+                    <%= link_to image_tag(src="#{person.img_url}", :style => 'width:80%'), person_path(person), :class => 'card-img-top' %>
+                    <div class="card-body">
+                        <h5 class="card-title"> <%= person.name %></h5>
+                        <h6>Director</h6>
+                    </div>
+                </div>
+            </div>
+        <% end %>
+    <% end %>
+</div>

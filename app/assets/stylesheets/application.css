@@ -5,6 +5,45 @@
 button#sidebarCollapse.btn.btn-info{
     background-color: #362602;
 }
+form input {
+  color: white;
+  font-size: .8em;
+  padding: 4px 7px;
+}
+input:hover {
+  color:#9b6e07;
+}
+h2 a {
+  color: white;
+}
+h2 a:hover {
+  color: #9b6e07;
+}
+h5 a {
+  color: #9b6e07;
+}
+h5 a:hover {
+  color: #c9a553;
+}
+  .my-edit-button {
+    box-shadow: -2px -1px 0px 0px rgb(118, 118, 118);
+    background-color: rgb(54,38,2);
+    border:2px solid rgb(54,38,2);
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:.8em; 
+    padding:4px 7px;
+  }
+  .my-edit-button:hover {
+    background-color:#1d1400;
+  }
+  .my-edit-button:active {
+    position:relative;
+    top:1px;
+  }
+}
 nav#sidebar a {
     color: #fafafa;
 }
@@ -27,12 +66,28 @@ nav#sidebar {
 body, html {
     height: 100%;
     font-family: 'Poppins', sans-serif;
+    
+}
+div.card-text{
+  text-align: center;
+  color: white;
 }
 
+div.card-text p {
+  font-size: small;
+}
+div.card {
+  background-color: #1d1400;
+}
+
+div.col-md-3 {
+  padding: 8px;
+  text-align: center;
+}
 .bg {
 
   /* The image used */
-    background-image: url("lotr-map.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("lotr-map.jpg");
   /* Full height */
     min-height: 100%;
     filter: brightness(100%);
@@ -45,16 +100,16 @@ body, html {
 .bg-busy {
 
   /* The image used */
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("lotr-circle.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url("lotr-circle.jpg");
   /* Full height */
-    min-height: 100%;
-    
+    height: 100%;
   /* Center and scale the image nicely */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
+  min-width: 100%;
 }
+
 
 .bg-busy #content-busy {
   filter:brightness(100%);
@@ -62,23 +117,25 @@ body, html {
 
 h3 a {
   color: #9b6e07;
+  
 }
 
 h3 a:hover {
-  color:#b19a64;
+  color:#553a01;
 }
 
 a.brn-link {
   color:#9b6e07;
+  
 }
 
 a.brn-link:hover {
-  color: #b19a64;
+  color: #553a01;
 }
 #content, #content-busy {
   position: relative;
   width: 100%;
-  padding-left: 20px;
+  padding: 20px;
   // transition: all 0.3s;
   top: 0;
   right: 0;
@@ -148,6 +205,7 @@ input[type="submit" i] {
 }
 h1, h2, h3, h4, h5, h6, p, form, div h1, div h4, div h5, div h3, div h2, h4 a, li a, div li, div ul {
   color:white;
+  list-style: none;
 }
 
 /* Shrinking the sidebar from 250px to 80px and center aligining its content*/

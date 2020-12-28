@@ -3,7 +3,7 @@
     <img src=<%= @movie.img_url %> height="300em"><br>
     <h3>Title: <%= @movie.title %></h3><br>
     <h5>Edition: <%= @movie.edition %></h5><br>
-    <h5>Length: <%= @movie.length %></h5><br>
+    <h5>Length: <%= @movie.length %> minutes</h5><br>
     <h5>Rating: <%= @movie.rating %></h5><br>
     <h5>Year Released: <%= @movie.year %></h5><br>
     <h5>Genres: <%= @movie.genres %></h5><br>
@@ -27,7 +27,7 @@
         <h5>Your Notes: <%= @user_movie.user_notes %></h5><br>
         <h5>Your Personal Notes: <%= @user_movie.private_notes %></h5><br>
     <% else %>
-        <h3>This movie is currently not part of your collection.  Would you like to <%= link_to "add it now?", user_user_collection_path(current_user, @movie), method: :post %> </h3><br>
+        <h3>This movie is currently not part of your collection.  Would you like to <%= link_to "add it now?", new_lotr_path(current_user, @movie)%> </h3><br>
     <% end %>
     <a class="brn-link" href="<%= @movie.imdb_link %>">Imdb Link</a><br>
     <a class="brn-link" href="<%= @movie.trailer %>">Link to trailer</a><br>
@@ -39,7 +39,7 @@
     <img src=<%= @movie.img_url %> height="300em"><br>
     <h3>Title: <%= @movie.title %></h3><br>
     <h5>Edition: <%= @movie.edition %></h5><br>
-    <h5>Length: <%= @movie.length %></h5><br>
+    <h5>Length: <%= @movie.length %> minutes</h5><br>
     <h5>Rating: <%= @movie.rating %></h5><br>
     <h5>Year Released: <%= @movie.year %></h5><br>
     <h5>Genres: <%= @movie.genres %></h5><br>

@@ -32,35 +32,42 @@
         <ul class="list-unstyled components">
           <li class="active"> 
             <a href="#moviesSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-              <i class="fas fa-movies"></i>
-              Movies
+              <i class="fas fa-gem"></i>
+              Hoards
             </a>
             <ul class="collapse list-unstyled" id="moviesSubmenu">
               <li>
-                <%= link_to "Your Collection", user_movies_path(current_user) %>
+                <%= link_to "Smaug's Hoard", movies_path %>
               </li>
               <li>
-                <%= link_to "All Movies", movies_path %>
+                <%= link_to "Your Hoard", user_movies_path(current_user) %>
               </li>
-              <li>
-                <%= link_to "Add a Movie", find_path(current_user) %>
-              </li>
+              
+              
             </ul>
           </li>
-          <li class="active"> 
-            <a href="#actorsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-              <i class="fas fa-actors"></i>
+          
+          <li>
+            <a href="/people">  
+              <i class="fas fa-users"></i>
               People
             </a>
-            <ul class="collapse list-unstyled" id="actorsSubmenu">
-              <li>
-                <%= link_to "Your People",  user_people_path(current_user) %>
-              </li>
-              <li>
-                <%= link_to "All People", people_path %>
-              </li>
-            </ul>
           </li>
+
+          <li>
+            <a href="<%= edit_user_path(current_user) %>">  
+              <i class="fas fa-edit"></i>
+              Edit your account
+            </a>
+          </li>
+          
+          <li>
+            <a href="<%= root_path %>">
+              <i class="fas fa-chess-rook"></i>
+                Home
+            </a>
+          </li>
+        </ul> 
           
           
         
@@ -71,12 +78,12 @@
       <!-- Sidebar  -->
       <nav id="sidebar">
         <div class="sidebar-header">
-          <h3>Movies, Movies, Movies</h3>
+          <h3>Middle Earth</h3>
         </div>
 
         <ul class="list-unstyled components">
           <li class="active">
-            <a class="nav-link" href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
               <i class="fas fa-home"></i>
                 Log In
             </a>
@@ -93,14 +100,22 @@
             </ul>
           </li>
           <li>
-            <a class="nav-link" href="<%= movies_path %>">See all Movies</a>
+            <a href="<%= movies_path %>">
+              <i class="fas fa-gem"></i>
+              Movies
+            </a>
           </li>
           <li>
-            <a class="nav-link" href="<%= people_path %>">See all People</a>
+            <a href="/people">  
+              <i class="fas fa-users"></i>
+                People
+            </a>
           </li>
-          
           <li>
-            <a class="nav-link" href="<%= root_path %>">Home</a>
+            <a href="<%= root_path %>">
+              <i class="fas fa-chess-rook"></i>
+                Home
+            </a>
           </li>
         </ul>
 

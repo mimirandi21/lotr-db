@@ -1,12 +1,14 @@
 Rails.application.routes.draw do
   resources :movie_people
-  resources :people
+  resources :people do 
+    resources :movies
+  end
   resources :movies
   resources :user_movies do
     resources :movies, only: [:index]
   end
   resources :users do
-    resources :movies, :as => :user_collection
+    resources :movies, as: :collection
     resources :user_movies
     resources :people, only: [:index]
   end
@@ -14,15 +16,11 @@ Rails.application.routes.draw do
 
 
   root 'users#home'
-  get '/auth/:provider/callback', to: 'users#omniauth'
+  get '/auth/:provider/callback', to: 'users#omniauth', as: :google_signin
   get 'auth/failure', to: redirect('/')
   get '/users/signin', to: 'users#signin'
   post '/users/signin', to: 'users#login'
   get '/user/logout', to: 'users#logout'
-  get 'users/:user_id/movies/choose', to: 'movies#choose', as: :choose
-  get 'users/:user_id/movies/find', to: 'movies#find', as: :find
-  post 'users/:user_id/movies/find', to: 'movies#create'
-  post 'users/:user_id/movies/choose', to: 'movies#create_from_db', as: :dbcreate
-
+  get '/users/:user_id/user_movies/:id/new', to:'user_movies#new', as: :new_lotr
   
 end

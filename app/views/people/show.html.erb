@@ -1,24 +1,72 @@
 <% if logged_in? %>
+
     <h2><%= @person.name %></h2>
+    <h5><%= @person.credit %></h5>
+    <% if @person.death_year != nil %>
+        <h5><%= @person.birth_year %> - <%= @person.death_year %>
+    <% else %>
+        <h5><%= @person.birth_year %>
+    <% end %>
+    <br><br>
+    <img src="<%= @person.img_url %>">
+    <br><br><br>
+    <% if @person.fun_fact_1 != nil %>
+        <h3>Fun Facts</h3>
+        <h5><%= @person.fun_fact_1 %></h5><br><br>
+    <% end %>
+    <% if @person.fun_fact_2 != nil %>
+        <h5><%= @person.fun_fact_2 %></h5><br><br>
+    <% end %>
+    <% if @person.fun_fact_3 != nil %>
+        <h5><%= @person.fun_fact_3 %></h5><br><br>
+    <% end %>
+    <br>
+    <% if @person.quote_1 != nil %>
+        <h3>Quotes</h3>
+        <h5><%= @person.quote_1 %></h5><br><br>
+    <% end %>
+    <% if @person.quote_2 != nil %>
+        <h5><%= @person.quote_2 %></h5><br><br>
+    <% end %>
+    <% if @person.quote_3 != nil %>
+        <h5><%= @person.quote_3 %></h5><br><br>
+    <% end %>
 
-    <h4>All movies by <%= @person.name %>.</h4>
-    <ul><% @person.movies.each do |movie| %>
-        <%= link_to movie.title, movie_path(movie) %></li>
-    <% end %></ul>
 
-    <h4>Your movies by <%= @person.name %>.</h4>
-    <ul><% @person.user_movies.each do |movie| %>
-        <%= link_to movie.title, user_user_collection_path(current_user, movie) %></li>
-    <% end %></ul>  
+    <h3><%= link_to "Click Here ", person_movies_path(@person) %>to see the movies <%= @person.name %> was a part of.</h3>
 
 <% else %>
 
     <h2><%= @person.name %></h2>
-
-    <ul><% @person.movies.each do |movie| %>
-        <li><%= link_to movie.title, movie_path(movie) %></li>
-    <% end %></ul>
+    <h5><%= @person.credit %></h5>
+    <% if @person.death_year != nil %>
+        <h5><%= @person.birth_year %> - <%= @person.death_year %>
+    <% else %>
+        <h5><%= @person.birth_year %>
+    <% end %>
+    <br><br>
+    <img src="<%= @person.img_url %>">
+    <br><br><br>
+    <% if @person.fun_fact_1 != nil %>
+        <h3>Fun Facts</h3>
+        <h5><%= @person.fun_fact_1 %></h5><br><br>
+    <% end %>
+    <% if @person.fun_fact_2 != nil %>
+        <h5><%= @person.fun_fact_2 %></h5><br><br>
+    <% end %>
+    <% if @person.fun_fact_3 != nil %>
+        <h5><%= @person.fun_fact_3 %></h5><br><br>
+    <% end %>
+    <br>
+    <% if @person.quote_1 != nil %>
+        <h3>Quotes</h3>
+        <h5><%= @person.quote_1 %></h5><br><br>
+    <% end %>
+    <% if @person.quote_2 != nil %>
+        <h5><%= @person.quote_2 %></h5><br><br>
+    <% end %>
+    <% if @person.quote_3 != nil %>
+        <h5><%= @person.quote_3 %></h5><br><br>
+    <% end %>
 
 <% end %>
-
-People.where(credit: "Actor" || "Actress")

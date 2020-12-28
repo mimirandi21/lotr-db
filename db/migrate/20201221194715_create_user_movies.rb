@@ -3,7 +3,6 @@ class CreateUserMovies < ActiveRecord::Migration[6.0]
     create_table :user_movies do |t|
       t.bigint :user_id
       t.bigint :movie_id
-      t.boolean :user_own
       t.bigint :user_rating
       t.text :user_notes
       t.text :private_notes

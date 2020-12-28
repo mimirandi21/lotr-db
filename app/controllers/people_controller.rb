@@ -3,6 +3,7 @@ class PeopleController < ApplicationController
 
 
     def show
+        render :layout => 'show'
     end
 
     def index

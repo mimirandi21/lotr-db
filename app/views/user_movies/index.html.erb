@@ -1,15 +1,34 @@
-<div>
-    <h2><%= "#{@user.name}'s Collection" %></h2>
-</div>
-<div>
+
     
-<% if @user_movies %>
+<% if !@user_movies.empty? %>
+    
+<div>
+<h2><%= "#{@user.name}'s Collection" %></h2><br>
+</div>
+
+
+    <div class="row row-cols-1 row-cols-md-4">
+
     <% @user_movies.each do |movie| %>
-        <%= movie.movie.poster_url %>
-        <%= movie.movie.name %>
-        <%= movie.ratings.first %>
+        <div class="col-md-3">
+            <div class="card h-100">
+                <%= link_to image_tag(src="#{movie.movie.img_url}", :style => 'width:80%'), movie_path(movie), :class => 'card-img-top' %>
+                <div class="card-body">
+                    <h5 class="card-title"> <%= movie.movie.title %></h5><br>
+                    <h5 class="card-title"><% movie.movie.edition %></h5>
+                </div>
+            </div>
+        </div>    
     <% end %>
 <% else %>
-    <%= link_to "You don't have any movies.  Add one here.", find_path(current_user) %>
-<% end %>
+<div>
+<h2><%= "#{@user.name}'s Collection" %></h2>
 </div>
+
+<div>
+
+    <h5><%= link_to "You don't have any movies.  Add one here.", movies_path %></h5>
+    </div>
+<% end %>
+
+

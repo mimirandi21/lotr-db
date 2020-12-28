@@ -3,12 +3,17 @@ class UserMoviesController < ApplicationController
     before_action :set_user
 
     def new
-        @user_movies = UserMovie.new
+        @user_movie = UserMovie.new
+        @movie = Movie.find_by(id: params[:id])
     end
 
     def create
         @user_movie = UserMovie.create(user_movie_params)
-        
+        redirect_to user_collection_path(current_user, @user_movie)
+    end
+
+    def index
+        @user_movies = UserMovie.where(user_id: current_user.id)
     end
 
     def show
@@ -36,7 +41,7 @@ class UserMoviesController < ApplicationController
     end
 
     def set_user_movie
-        @user_movie = UserMovie.find_by(user_id: params[:user_id])
+        @user_movie = UserMovie.where(user_id: current_user.id)
         puts @user_movie
     end
 

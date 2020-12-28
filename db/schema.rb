@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 2020_12_23_202725) do
     t.text "imdb_link"
     t.text "edition"
     t.text "plot_summary"
-    t.interval "length"
+    t.bigint "length"
     t.text "fun_fact_1"
     t.text "fun_fact_2"
     t.text "fun_fact_3"
@@ -67,7 +67,6 @@ ActiveRecord::Schema.define(version: 2020_12_23_202725) do
   create_table "user_movies", force: :cascade do |t|
     t.bigint "user_id"
     t.bigint "movie_id"
-    t.boolean "user_own"
     t.bigint "user_rating"
     t.text "user_notes"
     t.text "private_notes"

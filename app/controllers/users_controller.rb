@@ -91,6 +91,8 @@ class UsersController < ApplicationController
     def update
         if logged_in? && current_user
             @user = current_user
+            @user = @user.update(user_params)
+            redirect_to user_path(current_user)
         else
             log_out
             return head(:forbidden)

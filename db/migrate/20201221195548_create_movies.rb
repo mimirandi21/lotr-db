@@ -5,7 +5,7 @@ class CreateMovies < ActiveRecord::Migration[6.0]
       t.text :imdb_link
       t.text :edition
       t.text :plot_summary
-      t.interval :length
+      t.bigint :length
       t.text :fun_fact_1
       t.text :fun_fact_2
       t.text :fun_fact_3

@@ -8,8 +8,14 @@ class MoviesController < ApplicationController
     end
 
     def index
-        #search only by a user's collection if a user is logged in
-        if logged_in?
+        @person = Person.find_by(id: params[:person_id])
+        if @person
+            @movies = []
+            @moviepeople = MoviePerson.where(person_id: params[:person_id])
+            @moviepeople.each do |p|
+                @movies << Movie.find_by(id: p[:movie_id])
+            end
+        elsif logged_in?
             @movies = Movie.all
             @user = current_user
             @user_movies = UserMovie.where(user_id: params[:user_id])

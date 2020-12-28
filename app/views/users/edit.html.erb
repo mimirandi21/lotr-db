@@ -1,4 +1,19 @@
 <div>
     <h3>Edit your account<h3>
+
+<%= form_for(@user) do |f|%>
+    <label>Name:</label>
+    <%= f.text_field :name %><br><br>
+
+    <label>Email Address:</label>
+    <%= f.text_field :email %><br><br>
+
+    <label>Password:</label>
+    <%= f.password_field :password %><br><br>
+
+    <%=f.submit%>
+<% end %>
+<br>
+
+<a class="my-edit-button" href="/users/<%=current_user.id %>/delete">Delete Your Account</a>
 </div>
-<%= render 'form' %>
