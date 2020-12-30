@@ -33,6 +33,7 @@ gem 'tux'
 gem 'omniauth'
 gem 'omniauth-google'
 gem 'omniauth-google-oauth2'
+gem 'dotenv-rails'
 gem 'rb-readline'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'require_all'

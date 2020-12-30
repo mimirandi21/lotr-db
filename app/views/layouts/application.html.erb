@@ -28,13 +28,13 @@
       <!-- Sidebar  -->
       <nav id="sidebar">
         <div class="sidebar-header">
-          <h3><%= current_user.name %>'s Theater</h3>
+          <h3><%= current_user.name %>'s Middle Earth</h3>
         </div>
 
         <ul class="list-unstyled components">
           <li class="active"> 
             <a href="#moviesSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-              <i style="font-size:24px" class="fa">&#xf145;</i>
+              <i class="fas fa-gem"></i>
               Hoards
             </a>
             <ul class="collapse list-unstyled" id="moviesSubmenu">
@@ -71,7 +71,7 @@
           </li>
 
           <li>
-            <a href="<%= user_logout_path %>">
+            <a href="<%= logout_path %>">
               <i class="fas fa-door-open"></i>
                 Log Out
             </a>
@@ -99,7 +99,7 @@
                 <a class="nav-link" href="/auth/google_oauth2">Log In with Google</a>
               </li>
               <li>
-                <a class="nav-link" href="<%= users_signin_path %>">Log In with Email</a>
+                <a class="nav-link" href="<%= login_path %>">Log In with Email</a>
               </li>
               <li>
                 <a class="nav-link" href="<%= new_user_path %>">Create an Account</a>
@@ -131,28 +131,39 @@
     <%end%>
 
     <!-- Page Content  -->
-    <div id="content" class="bg">
+    <div id="biggie">
+      <div id="content" class="bg">
     
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
 
-          <button type="button" id="sidebarCollapse" class="btn btn-info">
+            <button type="button" id="sidebarCollapse" class="btn btn-info">
             <i class="fas fa-align-left"></i>
-            <span>Toggle Sidebar</span>
-          </button>
-        </div>
+            <span>Toggle</span>
+            </button>
+            
+          </div>
+          
       
-      </nav>
-    
+        </nav>
+        <p id="notice"><%= notice %></p>
 
 
 
 
     
-    <%= yield %>
+      <%= yield %>
+      </div>
     
-    </div>
+    <footer>
+    
+      <h6>Special Thanks to the following sites that provided information and insight in the making of this project!</h6>
+        <a href="https://lotr.fandom.com/wiki/Main_Page">The One Wiki to Rule them All</a>
+        <a href="http://tolkiengateway.net/wiki/Main_Page">Tolkien Gateway</a>
+        <a href="https://www.imdb.com/">IMDb</a>
+    </footer>
+  </div>
     
     
     <!-- jQuery CDN - Slim version (=without AJAX) -->

@@ -1,12 +1,37 @@
 @import "bootstrap";
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
-
+footer {
+  color: white;
+  vertical-align: bottom;
+  text-align: center;
+}
+footer a {
+  color: #9b6e07;
+  padding: 0 50px;
+}
+footer>a:hover {
+  color: #c9a553;
+}
+#notice {
+  color: red;
+  font-size: small;
+  
+}
 button#sidebarCollapse.btn.btn-info{
     background-color: #362602;
+    border-color: #1d1400;
+    vertical-align: auto;
+}
+
+.navbar>div.container-fluid {
+  align-items: flex-start;
+  justify-content: start;
+  background-color: rgba(0, 0, 0, 0);
+  
 }
 form input {
-  color: white;
+  
   font-size: .8em;
   padding: 4px 7px;
 }
@@ -16,13 +41,12 @@ input:hover {
 h2 a {
   color: white;
 }
-h2 a:hover {
-  color: #9b6e07;
-}
+
 h5 a {
   color: #9b6e07;
 }
-h5 a:hover {
+
+h2 a:hover, h4 a:hover, h5 a:hover {
   color: #c9a553;
 }
   .my-edit-button {
@@ -57,7 +81,7 @@ li.nav-link {
 }
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-    background-color: #1d1400!important;
+    background-color:rgba(0, 0, 0, 0)!important;
 }
 nav#sidebar {
     position: relative;
@@ -84,32 +108,12 @@ div.col-md-3 {
   padding: 8px;
   text-align: center;
 }
-.bg {
-
-  /* The image used */
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("lotr-map.jpg");
-  /* Full height */
-    min-height: 100%;
-    filter: brightness(100%);
-  /* Center and scale the image nicely */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  
+#biggie {
+  width: 100%;
+  min-height: 100%;
+  display:flex;
+  flex-direction: column;
 }
-.bg-busy {
-
-  /* The image used */
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url("lotr-circle.jpg");
-  /* Full height */
-    height: 100%;
-  /* Center and scale the image nicely */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-width: 100%;
-}
-
 
 .bg-busy #content-busy {
   filter:brightness(100%);
@@ -140,6 +144,7 @@ a.brn-link:hover {
   top: 0;
   right: 0;
   text-align: center;
+  min-height: 90%;
 }
 
 
@@ -189,6 +194,15 @@ a, a:hover, a:focus {
   right: 20px;
   transform: translateY(-50%);
 }
+nav#sidebar {
+  position:sticky;
+  top: 0;
+}
+
+nav.navbar{
+  position:sticky;
+  top: 0;
+}
 #sidebar {
   background: #1d1400;
   color: #fff;
@@ -197,7 +211,6 @@ a, a:hover, a:focus {
   max-width: 250px;
   min-width:250px;
   height: 100vh;
-  
 }
 
 input[type="submit" i] {
@@ -254,12 +267,36 @@ ul ul a {
   display: flex;
   width: 100%;
   align-items: stretch;
-  background: #1d1400;
+  /* The image used */
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("lotr-map.jpg");
+  /* Full height */
+    min-height: 100%;
+    min-width: 100%;
+    filter: brightness(100%);
+  /* Center and scale the image nicely */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wrapper-busy {
+  display: flex;
+  align-items: :stretch;
+  /* The image used */
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url("lotr-circle.jpg");
+  /* Full height */
+    min-height: 100%;
+  /* Center and scale the image nicely */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 /* Toggling the sidebar header content, hide the big heading [h3] and showing the small heading [strong] and vice versa*/
 #sidebar .sidebar-header strong {
   display: none;
+  
 }
 #sidebar.active .sidebar-header h3 {
   display: none;

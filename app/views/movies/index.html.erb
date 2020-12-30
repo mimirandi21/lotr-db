@@ -33,7 +33,12 @@
   </style>
 </head>
 <body>
-
+<% if @person %>
+    <div>
+        <h1><%= @person.name %></h1>
+        <h3><%= @person.credit %></h3>
+    </div>
+<% end %>
 <div class="container">
     <br>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">

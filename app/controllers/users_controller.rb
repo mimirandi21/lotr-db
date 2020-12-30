@@ -1,13 +1,7 @@
 class UsersController < ApplicationController 
     # skip_before_action :verify_authenticity_token, :only => [:index, :show]
 
-    def home
-        if logged_in?
-            redirect_to user_path(current_user)
-        else
-            
-        end
-    end
+    
 
     def new
         if logged_in? #verifys user logged in (using helpers)
@@ -24,88 +18,49 @@ class UsersController < ApplicationController
         else
             @user = User.new(user_params)
             if !@user.save
-                return head(:forbidden)
-                redirect_to root_path
+                redirect_to root_path, notice: "Oops, we better try that again!"
             else
                 @user.save
                 session[:user_id] = @user.id
-                redirect_to users_signin_path
+                redirect_to login_path
             end
         end
     end
 
-    def omniauth
-        #get access tokens from google using google oauth2
-        if logged_in?
-            redirect_to user_path(current_user)
-        else
-            @user = User.from_omniauth(auth)        
-                if @user.save
-                    redirect_to user_path(@user)
-                else
-                    redirect_to root_path
-                end
+    def self.from_omniauth(auth)
+        where(email: auth.email).first_or_initialize do |user|
+            user.name = auth.name
+            user.email = auth.email
+            user.password = SecureRandom.hex
         end
     end
 
-    def signin
-        if logged_in? && current_user
-            redirect_to user_path(current_user)
-        else
-            log_out
-            render 'users/signin'
-        end
-    end
-
-    def login
-        if logged_in?
-            redirect_to user_path(current_user)
-        else
-            if User.find_by(email: params[:user][:email]) == nil
-                return head(:forbidden)
-                redirect_to new_user_path
-            else
-                @user = User.find_by(email: params[:user][:email])
-                return head(:forbidden) unless @user.authenticate(params[:user][:password])
-                session[:user_id] = @user.id
-                redirect_to user_path(@user)
-            end
-        end
-    end 
-
-    def logout
-        log_out
-        redirect_to '/'
-    end
 
     def edit
-        if logged_in? && current_user
+        if current_user && logged_in?
             @user = current_user
         else
             log_out
-            return head(:forbidden)
-            render root_path
+            render root_path, notice: 'You have to log in to do this'
         end
     end
 
     def update
-        if logged_in? && current_user
+        if current_user && logged_in?
             @user = current_user
             @user = @user.update(user_params)
             redirect_to user_path(current_user)
         else
             log_out
-            return head(:forbidden)
-            render root_path
+            render root_path, notice: 'You have to log in to do this'
         end
     end
 
     def show
-        if logged_in?
+        if current_user && logged_in?
             @user = current_user
         else
-            return head(:forbidden)
-            render root_path
+            render root_path, notice: 'You have to log in to do this'
         end
     end
 
@@ -113,13 +68,15 @@ class UsersController < ApplicationController
     end
 
     def destroy
-        if logged_in? && current_user
+        if current_user && logged_in?
+            user_movies = UserMovie.where(:user_id => current_user.id)
+            user_movies.destroy_all
+            current_user.delete
             session.delete :user_id
             render root_path
         else
             log_out
-            return head(:forbidden)
-            render root_path
+            render root_path, notice: 'You have to log in to do this'
         end
     end
 
@@ -130,7 +87,5 @@ class UsersController < ApplicationController
         params.require(:user).permit(:name, :email, :password, :uid)
     end
 
-    def auth
-        request.env['omniauth.auth']
-    end
+
 end

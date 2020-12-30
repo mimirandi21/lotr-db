@@ -1,5 +1,5 @@
 <div>
-    <h3>Edit your account<h3>
+    <h3><u>Edit your account</u><h3><br>
 
 <%= form_for(@user) do |f|%>
     <label>Name:</label>
@@ -14,6 +14,7 @@
     <%=f.submit%>
 <% end %>
 <br>
+<%= button_to "Delete your Account", { action: "destroy", id: current_user.id },
+                                method: :delete, data: { confirm: "Are you sure?" } %>
 
-<a class="my-edit-button" href="/users/<%=current_user.id %>/delete">Delete Your Account</a>
 </div>

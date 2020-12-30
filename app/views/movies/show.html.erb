@@ -21,8 +21,8 @@
         <li>Metacritic Score: <%= @movie.metacritic_review %></li><br>
         <li>Rotten Tomato Score: <%= @movie.rotten_tomato_review %></li><br>
     </ul>
-    <% if current_user.user_movies.include?(@movie) %>
-        <% @user_movie = current_user.user_colletion.find_by(movie_id: @movie.id)%>
+    <% if current_user.movies.include?(@movie) %>
+        <% @user_movie = current_user.user_movies.find_by(movie_id: @movie.id)%>
         <h5>Your Review Score: <%= @user_movie.user_rating %></h5><br>
         <h5>Your Notes: <%= @user_movie.user_notes %></h5><br>
         <h5>Your Personal Notes: <%= @user_movie.private_notes %></h5><br>
@@ -31,7 +31,8 @@
     <% end %>
     <a class="brn-link" href="<%= @movie.imdb_link %>">Imdb Link</a><br>
     <a class="brn-link" href="<%= @movie.trailer %>">Link to trailer</a><br>
-
+    <br>
+    <br>
     
 
 
@@ -56,4 +57,6 @@
     </ul>
     <a href="<%= @movie.imdb_link %>">Imdb Link</a><br>
     <a href="<%= @movie.trailer %>">Link to trailer</a><br>
+    <br>
+    <br>
 <% end %>

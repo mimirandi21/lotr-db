@@ -34,6 +34,8 @@
 
 
     <h3><%= link_to "Click Here ", person_movies_path(@person) %>to see the movies <%= @person.name %> was a part of.</h3>
+    <br>
+    <br>
 
 <% else %>
 
@@ -68,5 +70,9 @@
     <% if @person.quote_3 != nil %>
         <h5><%= @person.quote_3 %></h5><br><br>
     <% end %>
+    <br>
+    <h3><%= link_to "Click Here ", person_movies_path(@person) %>to see the movies <%= @person.name %> was a part of.</h3>
+    <br>
+    <br>
 
 <% end %>

@@ -8,6 +8,7 @@ class MoviesController < ApplicationController
     end
 
     def index
+        byebug
         @person = Person.find_by(id: params[:person_id])
         if @person
             @movies = []
@@ -18,7 +19,7 @@ class MoviesController < ApplicationController
         elsif logged_in?
             @movies = Movie.all
             @user = current_user
-            @user_movies = UserMovie.where(user_id: params[:user_id])
+            @user_movies = UserMovie.where(user_id: session[:user_id])
         else
             @movies = Movie.all
         end

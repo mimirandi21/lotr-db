@@ -15,12 +15,12 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 
 
-  root 'users#home'
-  get '/auth/:provider/callback', to: 'users#omniauth', as: :google_signin
+  root 'sessions#home'
+  get '/auth/google_oauth2/callback', to: 'sessions#omniauth', as: :google_signin
   get 'auth/failure', to: redirect('/')
-  get '/users/signin', to: 'users#signin'
-  post '/users/signin', to: 'users#login'
-  get '/user/logout', to: 'users#logout'
+  get 'login', to: 'sessions#new'
+  post 'login', to: 'sessions#create'
+  get 'logout', to: 'sessions#destroy'
   get '/users/:user_id/user_movies/:id/new', to:'user_movies#new', as: :new_lotr
   
 end

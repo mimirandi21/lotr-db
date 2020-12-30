@@ -5,7 +5,7 @@
     <div class="col-md-3"></div>
     <div class="col-md-3"></div>
     <div class="col-md-3"></div>
-    <% @people.each do |person| %>
+    <% @people.sort_by { |person| person.name }.each do |person| %>
         
         <% if person.credit == "actor" || person.credit == "actress" %>
             <div class="col-md-3">
@@ -71,3 +71,5 @@
         <% end %>
     <% end %>
 </div>
+<br>
+<br>

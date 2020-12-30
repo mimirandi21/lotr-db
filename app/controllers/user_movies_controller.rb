@@ -9,7 +9,7 @@ class UserMoviesController < ApplicationController
 
     def create
         @user_movie = UserMovie.create(user_movie_params)
-        redirect_to user_collection_path(current_user, @user_movie)
+        redirect_to user_collection_path(current_user, @user_movie.movie_id)
     end
 
     def index

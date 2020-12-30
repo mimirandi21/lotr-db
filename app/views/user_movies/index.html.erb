@@ -1,34 +1,46 @@
 
     
-<% if !@user_movies.empty? %>
+<% if @user_movies.length != 0 %>
     
 <div>
 <h2><%= "#{@user.name}'s Collection" %></h2><br>
 </div>
 
 
-    <div class="row row-cols-1 row-cols-md-4">
+<div class="row row-cols-1 row-cols-md-3">
 
     <% @user_movies.each do |movie| %>
-        <div class="col-md-3">
-            <div class="card h-100">
-                <%= link_to image_tag(src="#{movie.movie.img_url}", :style => 'width:80%'), movie_path(movie), :class => 'card-img-top' %>
-                <div class="card-body">
-                    <h5 class="card-title"> <%= movie.movie.title %></h5><br>
-                    <h5 class="card-title"><% movie.movie.edition %></h5>
-                </div>
+    <div class="col-md-3">
+        <div class="card h-100">
+            <%= link_to image_tag(src="#{movie.movie.img_url}", :style => 'width:65%'), movie_path(movie.movie), :class => 'card-img-top' %>
+            <div class="card-body">
+                <h5 class="card-title">Title: <%= movie.movie.title %></h5><br>
+                <h5 class="card-title">Edition: <%= movie.movie.edition %></h5>
+                    <% if movie.user_rating != '' %>
+                        <h5>Your rating: <%= movie.user_rating %></h5>
+                    <% end %>
+                    <% if movie.user_notes != '' %>
+                        <h5>Your notes: <%= movie.user_notes %></h5>
+                    <% end %>
+                    <% if movie.private_notes != '' %>
+                        <h5>Private notes: <%= movie.private_notes %></h5> 
+                    <% end %>
             </div>
-        </div>    
+        </div>
+    </div>  
     <% end %>
+</div>
+
 <% else %>
 <div>
 <h2><%= "#{@user.name}'s Collection" %></h2>
 </div>
 
 <div>
-
     <h5><%= link_to "You don't have any movies.  Add one here.", movies_path %></h5>
-    </div>
+</div>
 <% end %>
+<br>
+<br>
 
 
