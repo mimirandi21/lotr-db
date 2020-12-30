@@ -18,7 +18,7 @@ class UserMoviesController < ApplicationController
     end
 
     def show
-        # @usermovie = UserMovie.find_by(movie_id: params[:id])
+        render :layout => 'show' 
     end
 
     def edit

@@ -154,7 +154,6 @@ a.brn-link:hover {
   min-height: 90%;
 }
 
-
 .overlay {
   display: none;
   position: fixed;
@@ -219,6 +218,7 @@ nav.navbar{
   max-width: 250px;
   min-width:250px;
   height: 100vh;
+  z-index: 1000;
 }
 
 input[type="submit" i] {
