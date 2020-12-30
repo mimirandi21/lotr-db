@@ -9,6 +9,7 @@ class UserMoviesController < ApplicationController
 
     def create
         @user_movie = UserMovie.create(user_movie_params)
+        flash[:notice] = "This movie has been added to your collection!"
         redirect_to user_collection_path(current_user, @user_movie.movie_id)
     end
 
@@ -26,11 +27,13 @@ class UserMoviesController < ApplicationController
 
     def update
         @user_movie.update(user_movie_params)
+        flash[:notice] = "Your movie has been update!"
         redirect_to user_collection_path(current_user, @user_movie)
     end
 
     def destroy
         @user_movie.delete
+        flash[:notice] = "This movie has been removed from your collection."
         redirect_to user_collection_path(current_user)
     end
 

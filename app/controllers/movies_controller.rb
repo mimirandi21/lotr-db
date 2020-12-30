@@ -8,7 +8,6 @@ class MoviesController < ApplicationController
     end
 
     def index
-        byebug
         @person = Person.find_by(id: params[:person_id])
         if @person
             @movies = []

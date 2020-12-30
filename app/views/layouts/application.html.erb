@@ -22,7 +22,7 @@
   </head>
 
   <body>
-    <% if logged_in? %>
+    <% if current_user && logged_in? %>
     <div class="wrapper">
 
       <!-- Sidebar  -->
@@ -64,7 +64,7 @@
           </li>
           
           <li>
-            <a href="<%= root_path %>">
+            <a href="<%= user_path(current_user) %>">
               <i class="fas fa-chess-rook"></i>
                 Home
             </a>

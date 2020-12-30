@@ -18,7 +18,8 @@ class UsersController < ApplicationController
         else
             @user = User.new(user_params)
             if !@user.save
-                redirect_to root_path, notice: "Oops, we better try that again!"
+                flash[:notice] = "That didn't work, we better try again!"
+                redirect_to root_path
             else
                 @user.save
                 session[:user_id] = @user.id
@@ -41,7 +42,8 @@ class UsersController < ApplicationController
             @user = current_user
         else
             log_out
-            render root_path, notice: 'You have to log in to do this'
+            flash[:notice] = "You have to be logged in to do this!"
+            render root_path
         end
     end
 
@@ -52,7 +54,8 @@ class UsersController < ApplicationController
             redirect_to user_path(current_user)
         else
             log_out
-            render root_path, notice: 'You have to log in to do this'
+            flash[:notice] = "You have to be logged in to do this!"
+            render root_path
         end
     end
 
@@ -60,7 +63,8 @@ class UsersController < ApplicationController
         if current_user && logged_in?
             @user = current_user
         else
-            render root_path, notice: 'You have to log in to do this'
+            flash[:notice] = "You have to be logged in to do this!"
+            render root_path
         end
     end
 
@@ -76,7 +80,8 @@ class UsersController < ApplicationController
             render root_path
         else
             log_out
-            render root_path, notice: 'You have to log in to do this'
+            flash[:notice] = "You have to be logged in to do this!"
+            render root_path
         end
     end
 

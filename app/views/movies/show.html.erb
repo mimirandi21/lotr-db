@@ -1,4 +1,4 @@
-<% if logged_in? %>
+<% if current_user && logged_in? %>
     
     <img src=<%= @movie.img_url %> height="300em"><br>
     <h3>Title: <%= @movie.title %></h3><br>
@@ -10,17 +10,20 @@
     <h5>Plot: <%= @movie.plot_summary %></h5><br>
     
     
-    <ul>Fun Facts:
+    <ul><u><b>Fun Facts:</b></u>
         <li><%= @movie.fun_fact_1 %></li><br>
         <li><%= @movie.fun_fact_2 %></li><br>
         <li><%= @movie.fun_fact_3 %></li><br>
     </ul>
     
-    <ul>Review Scores: 
+    <ul><u><b>Review Scores:</b></u> 
         <li>IMDB Score: <%= @movie.imdb_review %></li><br>
         <li>Metacritic Score: <%= @movie.metacritic_review %></li><br>
         <li>Rotten Tomato Score: <%= @movie.rotten_tomato_review %></li><br>
     </ul>
+    <% if UserMovie.where(movie_id: @movie.id) != nil %>
+    <ul><u><b>User Reviews:</b></u>
+    <%end%>
     <% if current_user.movies.include?(@movie) %>
         <% @user_movie = current_user.user_movies.find_by(movie_id: @movie.id)%>
         <h5>Your Review Score: <%= @user_movie.user_rating %></h5><br>

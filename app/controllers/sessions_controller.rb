@@ -17,6 +17,7 @@ class SessionsController < ApplicationController
                 if @user.save
                     session[:user_id] = @user.id
                     @current_user = current_user
+                    flash[:notice] = "Log in success!"
                     redirect_to user_path(@user)
                 else
                     redirect_to root_path
@@ -64,7 +65,8 @@ class SessionsController < ApplicationController
 
     def destroy
         log_out
-        redirect_to '/', notice: "Logged out!"
+        flash[:notice] = "You have logged out!"
+        redirect_to '/'
     end
 
     private

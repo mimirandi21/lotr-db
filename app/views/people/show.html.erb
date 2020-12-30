@@ -1,4 +1,4 @@
-<% if logged_in? %>
+<% if current_user && logged_in? %>
 
     <h2><%= @person.name %></h2>
     <h5><%= @person.credit %></h5>
