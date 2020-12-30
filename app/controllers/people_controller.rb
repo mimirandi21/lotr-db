@@ -9,7 +9,7 @@ class PeopleController < ApplicationController
     def index
         #search only by user's collection if a user is logged in
         if params[:user_id]
-            @person = Person.where(user_id: session[:user_id])
+            @person = Person.where(user_id: params[:user_id])
         else
             @people = Person.all 
         end

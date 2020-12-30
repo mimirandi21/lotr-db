@@ -14,7 +14,7 @@ footer>a:hover {
   color: #c9a553;
 }
 #notice {
-  color: red;
+  color: #c9a553;
   font-size: small;
   
 }
@@ -132,7 +132,7 @@ h3 a {
 }
 
 h3 a:hover {
-  color:#553a01;
+  color:#c9a553;
 }
 
 a.brn-link {
@@ -141,7 +141,7 @@ a.brn-link {
 }
 
 a.brn-link:hover {
-  color: #553a01;
+  color: #c9a553;
 }
 #content, #content-busy {
   position: relative;
@@ -223,7 +223,14 @@ nav.navbar{
 
 input[type="submit" i] {
   background-color: #362602;
+  color:#9b6e07;
 }
+
+input:hover {
+  background-color: #362602;
+  color:#c9a553;
+}
+
 h1, h2, h3, h4, h5, h6, p, form, div h1, div h4, div h5, div h3, div h2, h4 a, li a, div li, div ul {
   color:white;
   list-style: none;

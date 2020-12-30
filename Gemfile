@@ -42,6 +42,7 @@ gem 'csv'
 gem 'tsv'
 gem 'activerecord-import'
 
+
 group :assets, :test do
   gem 'sass-rails', '>= 6'
   gem 'uglifier'
