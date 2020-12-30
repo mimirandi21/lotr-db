@@ -17,18 +17,26 @@
     </ul>
     
     <ul><u><b>Review Scores:</b></u> 
-        <li>IMDB Score: <%= @movie.imdb_review %></li><br>
-        <li>Metacritic Score: <%= @movie.metacritic_review %></li><br>
+        <li>IMDB Score: <%= @movie.imdb_review %></li> 
+        <li>Metacritic Score: <%= @movie.metacritic_review %></li>
         <li>Rotten Tomato Score: <%= @movie.rotten_tomato_review %></li><br>
     </ul>
-    <% if UserMovie.where(movie_id: @movie.id) != nil %>
+    
+    <% if @user_movie != nil %>
     <ul><u><b>User Reviews:</b></u>
+        <% @user_movie.each do |movie| %>
+            <% next if movie.user_id == current_user.id %>
+            <li><%= movie.user.name %>'s Review</li>
+            <li><%= movie.user_rating %><li>
+            <li><%= movie.user_notes%></li>
+        <% end %> 
+    </ul>   
     <%end%>
     <% if current_user.movies.include?(@movie) %>
-        <% @user_movie = current_user.user_movies.find_by(movie_id: @movie.id)%>
-        <h5>Your Review Score: <%= @user_movie.user_rating %></h5><br>
-        <h5>Your Notes: <%= @user_movie.user_notes %></h5><br>
-        <h5>Your Personal Notes: <%= @user_movie.private_notes %></h5><br>
+        <ul><% @user_movie = current_user.user_movies.find_by(movie_id: @movie.id)%>
+            <li><b>Your Review Score: <%= @user_movie.user_rating %></b></li>
+            <li><b>Your Notes: <%= @user_movie.user_notes %></b></li>
+            <li><b>Your Personal Notes: <%= @user_movie.private_notes %></b></li><br>
     <% else %>
         <h3>This movie is currently not part of your collection.  Would you like to <%= link_to "add it now?", new_lotr_path(current_user, @movie)%> </h3><br>
     <% end %>
@@ -48,16 +56,28 @@
     <h5>Year Released: <%= @movie.year %></h5><br>
     <h5>Genres: <%= @movie.genres %></h5><br>
     <h5>Plot: <%= @movie.plot_summary %></h5><br>
-    <ul>Review Scores: 
-        <li>IMDB Score: <%= @movie.imdb_review %></li><br>
-        <li>Metacritic Score: <%= @movie.metacritic_review %></li><br>
-        <li>Rotten Tomato Score: <%= @movie.rotten_tomato_review %></li><br>
-    </ul>
-    <ul>Fun Facts:
-        <li><%= @movie.fun_fact_1 %></li><br>
-        <li><%= @movie.fun_fact_2 %></li><br>
+    
+    <ul><u><b>Fun Facts:</u></b>
+        <li><%= @movie.fun_fact_1 %></li>
+        <li><%= @movie.fun_fact_2 %></li>
         <li><%= @movie.fun_fact_3 %></li><br>
     </ul>
+    <ul><u><b>Review Scores:</u></b>
+        <li>IMDB Score: <%= @movie.imdb_review %></li>
+        <li>Metacritic Score: <%= @movie.metacritic_review %></li>
+        <li>Rotten Tomato Score: <%= @movie.rotten_tomato_review %></li><br>
+    </ul>
+
+    <% if @user_movie != nil %>
+    <ul><u><b>User Reviews:</b></u>
+        <% @user_movie.each do |movie| %>
+            
+            <li><%= movie.user.name %>'s Review</li>
+            <li><%= movie.user_rating %><li>
+            <li><%= movie.user_notes%></li><br><br>
+        <% end %> 
+    </ul>   
+    <%end%>
     <a href="<%= @movie.imdb_link %>">Imdb Link</a><br>
     <a href="<%= @movie.trailer %>">Link to trailer</a><br>
     <br>
