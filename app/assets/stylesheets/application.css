@@ -231,7 +231,7 @@ input:hover {
   color:#c9a553;
 }
 
-h1, h2, h3, h4, h5, h6, p, form, div h1, div h4, div h5, div h3, div h2, h4 a, li a, div li, div ul {
+h1, h2, h3, h4, h5, h6, p, form, div h1, div h4, div h5, div h3, div h2, h4 a, li a, div li, div ul, div h6 {
   color:white;
   list-style: none;
 }

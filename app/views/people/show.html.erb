@@ -35,6 +35,8 @@
 
     <h3><%= link_to "Click Here ", person_movies_path(@person) %>to see the movies <%= @person.name %> was a part of.</h3>
     <br>
+    <a class="brn-link" href="<%= @person.imdb_link %>">Imdb Link</a><br>
+    <br>
     <br>
 
 <% else %>
@@ -72,6 +74,8 @@
     <% end %>
     <br>
     <h3><%= link_to "Click Here ", person_movies_path(@person) %>to see the movies <%= @person.name %> was a part of.</h3>
+    <br>
+    <a class="brn-link" href="<%= @person.imdb_link %>">Imdb Link</a><br>
     <br>
     <br>
 

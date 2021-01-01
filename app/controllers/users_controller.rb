@@ -43,7 +43,7 @@ class UsersController < ApplicationController
         else
             log_out
             flash[:notice] = "You have to be logged in to do this!"
-            render root_path
+            redirect_to root_path
         end
     end
 
@@ -55,7 +55,7 @@ class UsersController < ApplicationController
         else
             log_out
             flash[:notice] = "You have to be logged in to do this!"
-            render root_path
+            redirect_to root_path
         end
     end
 
@@ -64,7 +64,7 @@ class UsersController < ApplicationController
             @user = current_user
         else
             flash[:notice] = "You have to be logged in to do this!"
-            render root_path
+            redirect_to root_path
         end
     end
 
@@ -77,11 +77,11 @@ class UsersController < ApplicationController
             user_movies.destroy_all
             current_user.delete
             session.delete :user_id
-            render root_path
+            redirect_to root_path
         else
             log_out
             flash[:notice] = "You have to be logged in to do this!"
-            render root_path
+            redirect_to root_path
         end
     end
 
