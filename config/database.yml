@@ -71,24 +71,24 @@ test:
   database: lotr_db_test
   pool: 5
 
-# As with config/credentials.yml, you never want to store sensitive information,
-# like your database password, in your source code. If your source code is
-# ever seen by anyone, they now have access to your database.
-#
-# Instead, provide the password as a unix environment variable when you boot
-# the app. Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
-# for a full rundown on how to provide these environment variables in a
-# production deployment.
-#
-# On Heroku and other platform providers, you may have a full connection URL
-# available as an environment variable. For example:
-#
-#   DATABASE_URL="postgres://jbcmczdbrefkrg:e73d43185856cd39ee40784c22ef3349a25bd4c141e7ca8ade0b3281687e91fc@ec2-52-44-46-66.compute-1.amazonaws.com:5432/dd7s1l7kvi2qpl"
-#
-# You can use this database configuration with:
-#
-#   production:
-#     url: <%= ENV['DATABASE_URL'] %>
+  # As with config/credentials.yml, you never want to store sensitive information,
+  # like your database password, in your source code. If your source code is
+  # ever seen by anyone, they now have access to your database.
+  #
+  # Instead, provide the password as a unix environment variable when you boot
+  # the app. Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
+  # for a full rundown on how to provide these environment variables in a
+  # production deployment.
+  #
+  # On Heroku and other platform providers, you may have a full connection URL
+  # available as an environment variable. For example:
+  #
+  #   DATABASE_URL="postgres://jbcmczdbrefkrg:e73d43185856cd39ee40784c22ef3349a25bd4c141e7ca8ade0b3281687e91fc@ec2-52-44-46-66.compute-1.amazonaws.com:5432/dd7s1l7kvi2qpl"
+  #
+  # You can use this database configuration with:
+  #
+  # production:
+  #   url: <%= ENV['DATABASE_URL'] %>
 #
 production:
   <<: *default
