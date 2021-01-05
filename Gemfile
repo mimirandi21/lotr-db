@@ -41,6 +41,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'csv'
 gem 'tsv'
 gem 'activerecord-import'
+gem 'autoprefixer-rails'
 
 
 group :assets, :test do
