@@ -14,6 +14,7 @@ import "bootstrap";
 import "../stylesheets/application.scss";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel";
+import "stylesheets/application";
 
 import JQuery from "jquery";
 window.$ = window.JQuery = JQuery;
