@@ -6,7 +6,7 @@ gem 'font-awesome-sass'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 # Use postgresql as the database for Active Record
-gem 'pg', '>= 0.18', '< 2.0'
+gem 'pg', '>= 0.18.1', '< 2.0'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
@@ -42,6 +42,7 @@ gem 'csv'
 gem 'tsv'
 gem 'activerecord-import'
 gem 'autoprefixer-rails'
+gem 'rails_12factor'
 
 
 group :assets, :test do
@@ -62,6 +63,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'bootstrap-sass'
+  
 end
 
 group :test do

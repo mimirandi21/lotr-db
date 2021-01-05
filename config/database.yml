@@ -76,8 +76,8 @@ development:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-# production:
-#   <<: *default
-#   database: lotr_db_production
-#   username: lotr_db
-#   password: <%= ENV['LOTR_DB_DATABASE_PASSWORD'] %>
+production:
+  <<: *default
+  database: lotr_db_production
+  username: lotr_db
+  password: <%= ENV['LOTR_DB_DATABASE_PASSWORD'] %>
