@@ -22,13 +22,18 @@ default: &default
   pool: 5
 development:
   <<: *default
+  # adapter: postgresql
+  # encoding: unicode
+  # database: lotr_db_development
+  # pool: 5
+  # username: postgres
+  # password: mimita
+  # host: localhost
+  development:
   adapter: postgresql
-  encoding: unicode
-  database: lotr_db_development
-  pool: 5
-  username: postgres
-  password: mimita
   host: localhost
+  username: user
+  database: app-dev
 # The specified database role being used to connect to postgres.
 # To create additional roles in postgres see `$ createuser --help`.
 # When left blank, postgres will use the default role. This is
@@ -78,7 +83,7 @@ test:
 # On Heroku and other platform providers, you may have a full connection URL
 # available as an environment variable. For example:
 #
-#   DATABASE_URL="postgres://myuser:mypass@localhost/somedatabase"
+#   DATABASE_URL="postgres://jbcmczdbrefkrg:e73d43185856cd39ee40784c22ef3349a25bd4c141e7ca8ade0b3281687e91fc@ec2-52-44-46-66.compute-1.amazonaws.com:5432/dd7s1l7kvi2qpl"
 #
 # You can use this database configuration with:
 #
