@@ -43,6 +43,7 @@ gem 'tsv'
 gem 'activerecord-import'
 gem 'autoprefixer-rails'
 gem 'rails_12factor'
+gem 'bootstrap-sass'
 
 
 group :assets, :test do
