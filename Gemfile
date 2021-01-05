@@ -44,10 +44,10 @@ gem 'activerecord-import'
 gem 'autoprefixer-rails'
 gem 'rails_12factor'
 gem 'bootstrap-sass'
-
+gem 'sass-rails', '>= 6'
 
 group :assets, :test do
-  gem 'sass-rails', '>= 6'
+  
   gem 'uglifier'
   end
 
