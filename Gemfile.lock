@@ -95,8 +95,6 @@ GEM
     dotenv-rails (2.7.5)
       dotenv (= 2.7.5)
       railties (>= 3.2, < 6.1)
-    email_validator (2.2.2)
-      activemodel
     erubi (1.10.0)
     execjs (2.7.0)
     faraday (1.1.0)
@@ -304,7 +302,6 @@ DEPENDENCIES
   coffee-rails
   csv
   dotenv-rails
-  email_validator
   faraday
   figaro
   font-awesome-sass
