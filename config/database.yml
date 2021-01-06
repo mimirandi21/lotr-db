@@ -22,18 +22,18 @@ default: &default
   pool: 5
 development:
   <<: *default
-  adapter: postgresql
-  encoding: unicode
-  database: lotr_db_development
-  pool: 5
-  username: postgres
-  password: mimita
-  host: localhost
-  # development:
   # adapter: postgresql
+  # encoding: unicode
+  # database: lotr_db_development
+  # pool: 5
+  # username: postgres
+  # password: mimita
   # host: localhost
-  # username: user
-  # database: app-dev
+  development:
+  adapter: postgresql
+  host: localhost
+  username: user
+  database: app-dev
 # The specified database role being used to connect to postgres.
 # To create additional roles in postgres see `$ createuser --help`.
 # When left blank, postgres will use the default role. This is
