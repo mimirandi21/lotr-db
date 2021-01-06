@@ -24,6 +24,10 @@ class MoviesController < ApplicationController
         end
 
     end
+    
+    def rating 
+        @movies = UserMovie.where(user_rating: 5)
+    end
 
     def set_movie
         @movie = Movie.find(params[:id])

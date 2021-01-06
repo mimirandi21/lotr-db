@@ -22,5 +22,5 @@ Rails.application.routes.draw do
   post 'login', to: 'sessions#create'
   get 'logout', to: 'sessions#destroy'
   get '/users/:user_id/user_movies/:id/new', to:'user_movies#new', as: :new_lotr
-  
+  get 'rating', to: 'movies#rating'
 end
