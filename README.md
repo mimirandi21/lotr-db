@@ -20,7 +20,7 @@ Additionally, find out more about the actors and writers - fun facts and quotes 
 _This includes only the Peter Jackson movies._
 
 ## Screenshots
-![screenshot](./public/assets/LOTRMovie.png)
+![screenshot](./public/assets/login.png)
 
 ## Technologies
 * Ruby on Rails
