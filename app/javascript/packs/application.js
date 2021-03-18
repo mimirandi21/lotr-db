@@ -3,24 +3,25 @@
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 
-require("@rails/ujs").start()
-require("turbolinks").start()
-require("@rails/activestorage").start()
-require("channels")
-require('jquery_ujs')
-require('custom/home')
+require("@rails/ujs").start();
+require("turbolinks").start();
+require("@rails/activestorage").start();
+require("channels");
+require("jquery_ujs");
+require("custom/home");
 
 import "bootstrap";
 import "../stylesheets/application.scss";
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel';
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel";
+import "stylesheets/application";
 
-import JQuery from 'jquery';
+import JQuery from "jquery";
 window.$ = window.JQuery = JQuery;
 
 document.addEventListener("turbolinks:load", () => {
-    $('[data-toggle="tooltip"]').tooltip()
-    $('[data-toggle="popover"]').popover()
+	$('[data-toggle="tooltip"]').tooltip();
+	$('[data-toggle="popover"]').popover();
 });
 
 globalThis.$ = jQuery;

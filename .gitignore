@@ -39,3 +39,5 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+DATABASE_URL="postgres://jbcmczdbrefkrg:e73d43185856cd39ee40784c22ef3349a25bd4c141e7ca8ade0b3281687e91fc@ec2-52-44-46-66.compute-1.amazonaws.com:5432/dd7s1l7kvi2qpl"

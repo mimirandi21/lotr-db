@@ -42,10 +42,12 @@ gem 'csv'
 gem 'tsv'
 gem 'activerecord-import'
 gem 'autoprefixer-rails'
-
+gem 'bootstrap-sass'
+gem 'sass-rails', '>= 6'
+gem 'rails_12factor'
 
 group :assets, :test do
-  gem 'sass-rails', '>= 6'
+  
   gem 'uglifier'
   end
 
@@ -62,6 +64,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'bootstrap-sass'
+  
 end
 
 group :test do
