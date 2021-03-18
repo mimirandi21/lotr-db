@@ -1,17 +1,60 @@
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const path = require("path");
+
 module.exports = {
-	context: __dirname + "/javascripts",
-	entry: "./webpack_application.js",
+	entry: "src/app/app.js",
 	output: {
-		filename: "webpack.bundle.js",
-		path: __dirname + "/javascripts",
+		path: path.resolve(__dirname, "dist"),
+		filename: "index_bundle.js",
+	},
+	devServer: {
+		inline: false,
+		contentBase: "./dist",
 	},
 	module: {
 		rules: [
-			{ test: /\.jsx?$/, exclude: /node_modules/, loader: "babel-loader" },
+			{
+				test: /\.js$/,
+				exclude: /node_modules/,
+				loader: "babel-loader",
+			},
+			{
+				test: /\.html$/,
+				use: "raw-loader",
+			},
+			{
+				test: /\.scss$/,
+				use: [
+					{
+						loader: "style-loader",
+					},
+					{
+						loader: "css-loader",
+					},
+					{
+						loader: "sass-loader",
+					},
+				],
+			},
+			{
+				test: /\.css$/,
+				use: [
+					{
+						loader: "style-loader",
+					},
+					{
+						loader: "css-loader",
+					},
+				],
+			},
 		],
 	},
-	resolve: {
-		extensions: ["", ".js", ".jsx"],
-		modulesDirectories: ["node_modules", "javascripts"],
-	},
+	plugins: [
+		new HtmlWebpackPlugin({
+			template: "index.html",
+			inject: "body",
+			hash: true,
+		}),
+	],
+	devtool: "#inline-source-map",
 };
