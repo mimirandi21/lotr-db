@@ -1,6 +1,6 @@
 # Middle Earth - A Lord of the Rings Movie Database and Fan Site
 A fan site for Peter Jackson's Lord of the Rings and Hobbit movies that allows you to create your own movie hoard.
-![screenshot](./public/assets/LOTRLogin.png)
+![screenshot](./public/LOTRLogin.png)
 
 [Project Walkthrough Video](https://drive.google.com/file/d/12xtB-bY6oBehyJpDjHR8iT1JpmfOay5s/view?usp=sharing)
 
@@ -20,7 +20,7 @@ Additionally, find out more about the actors and writers - fun facts and quotes 
 _This includes only the Peter Jackson movies._
 
 ## Screenshots
-![screenshot](./public/assets/LOTRMovie.png)
+![screenshot](./public/LOTRMovie.png)
 
 ## Technologies
 * Ruby on Rails
